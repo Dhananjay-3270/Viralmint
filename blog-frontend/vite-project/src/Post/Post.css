@@ -1,0 +1,75 @@
+/* Basic container styling for the post */
+.post-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Title styling */
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Author and location details */
+.post-author,
+.post-location {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+/* Content of the blog */
+.post-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Media section (image and video) */
+.post-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Media items styling (image and video) */
+.post-media-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Image styling */
+.post-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Video styling */
+.post-video {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .post-title {
+    font-size: 20px;
+  }
+
+  .post-content {
+    font-size: 14px;
+  }
+
+  .post-media {
+    flex-direction: column;
+  }
+}

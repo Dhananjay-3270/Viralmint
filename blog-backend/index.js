@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
+const insertData = require("./helper/inserdata");
 
 dotenv.config();
 
@@ -12,16 +13,23 @@ app.use(cors());
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
-}).then(() => console.log("Connected to MongoDB"))
-.catch((err) => console.log(err));
+  useUnifiedTopology: true,
+}).then(async () => {
+  console.log("Connected to MongoDB");
+
+  // Insert data when the server starts
+  await insertData();
+
+}).catch((err) => {
+  console.log(err);
+});
 
 // Example Routes
 app.get("/", (req, res) => {
   res.send("Backend is running");
 });
 
-// Blog Routes (e.g., '/api/posts', '/api/posts/:geoLocation')
+// Blog Routes
 const blogRoutes = require('./routes/blogRoutes');
 app.use('/api/posts', blogRoutes);
 

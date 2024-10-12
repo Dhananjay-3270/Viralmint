@@ -1,0 +1,5102 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Startups in Delhi",
+    "content": "Learn about the latest trends and innovations happening in Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Best Street Food in Bangalore",
+    "content": "Discover the must-visit places and experiences in Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Journey Through Hyderabad",
+    "content": "Explore the local cuisine, attractions, and more in Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Life in Chennai",
+    "content": "Uncover why digital nomads and tourists flock to Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Hidden Gems of Kolkata",
+    "content": "A detailed travel and living guide to Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Booming Economy in Ahmedabad",
+    "content": "Everything you need to know about the hidden beauty of Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "An Adventure in Pune",
+    "content": "Find out how this city is becoming a global tech hub Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "What Makes People Love Surat",
+    "content": "Experience the vibrant culture and unique offerings of Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The Growing Appeal of Jaipur",
+    "content": "A comprehensive look at the modern developments in Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Exploring the Streets of Lucknow",
+    "content": "An in-depth guide to the culture and lifestyle of Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Tech Startups in Kanpur",
+    "content": "Learn about the latest trends and innovations happening in Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "The Best Street Food in Nagpur",
+    "content": "Discover the must-visit places and experiences in Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "A Journey Through Indore",
+    "content": "Explore the local cuisine, attractions, and more in Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Life in Thane",
+    "content": "Uncover why digital nomads and tourists flock to Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "The Hidden Gems of Bhopal",
+    "content": "A detailed travel and living guide to Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "The Booming Economy in Visakhapatnam",
+    "content": "Everything you need to know about the hidden beauty of Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "An Adventure in Patna",
+    "content": "Find out how this city is becoming a global tech hub Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "What Makes People Love Vadodara",
+    "content": "Experience the vibrant culture and unique offerings of Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "The Growing Appeal of Ghaziabad",
+    "content": "A comprehensive look at the modern developments in Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Exploring the Streets of Coimbatore",
+    "content": "An in-depth guide to the culture and lifestyle of Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Tech Startups in Kochi",
+    "content": "Learn about the latest trends and innovations happening in Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "The Best Street Food in Mysore",
+    "content": "Discover the must-visit places and experiences in Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "A Journey Through Vijayawada",
+    "content": "Explore the local cuisine, attractions, and more in Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Life in Madurai",
+    "content": "Uncover why digital nomads and tourists flock to Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "The Hidden Gems of Nashik",
+    "content": "A detailed travel and living guide to Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "The Booming Economy in Rajkot",
+    "content": "Everything you need to know about the hidden beauty of Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "An Adventure in Jabalpur",
+    "content": "Find out how this city is becoming a global tech hub Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "What Makes People Love Udaipur",
+    "content": "Experience the vibrant culture and unique offerings of Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "The Growing Appeal of Agra",
+    "content": "A comprehensive look at the modern developments in Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Exploring the Streets of Varanasi",
+    "content": "An in-depth guide to the culture and lifestyle of Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Tech Startups in Guwahati",
+    "content": "Learn about the latest trends and innovations happening in Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "The Best Street Food in Dehradun",
+    "content": "Discover the must-visit places and experiences in Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "A Journey Through Jamshedpur",
+    "content": "Explore the local cuisine, attractions, and more in Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Life in Ranchi",
+    "content": "Uncover why digital nomads and tourists flock to Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "The Hidden Gems of Chandigarh",
+    "content": "A detailed travel and living guide to Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "The Booming Economy in Shimla",
+    "content": "Everything you need to know about the hidden beauty of Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "An Adventure in Goa",
+    "content": "Find out how this city is becoming a global tech hub Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "What Makes People Love Puducherry",
+    "content": "Experience the vibrant culture and unique offerings of Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "The Growing Appeal of Trivandrum",
+    "content": "A comprehensive look at the modern developments in Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Exploring the Streets of Amritsar",
+    "content": "An in-depth guide to the culture and lifestyle of Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Tech Startups in Ludhiana",
+    "content": "Learn about the latest trends and innovations happening in Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "The Best Street Food in Meerut",
+    "content": "Discover the must-visit places and experiences in Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "A Journey Through Aurangabad",
+    "content": "Explore the local cuisine, attractions, and more in Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Life in Allahabad",
+    "content": "Uncover why digital nomads and tourists flock to Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "The Hidden Gems of Mangalore",
+    "content": "A detailed travel and living guide to Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "The Booming Economy in Tiruchirappalli",
+    "content": "Everything you need to know about the hidden beauty of Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "An Adventure in Mumbai",
+    "content": "Find out how this city is becoming a global tech hub Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "What Makes People Love Delhi",
+    "content": "Experience the vibrant culture and unique offerings of Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "The Growing Appeal of Bangalore",
+    "content": "A comprehensive look at the modern developments in Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Exploring the Streets of Hyderabad",
+    "content": "An in-depth guide to the culture and lifestyle of Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Tech Startups in Chennai",
+    "content": "Learn about the latest trends and innovations happening in Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "The Best Street Food in Kolkata",
+    "content": "Discover the must-visit places and experiences in Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "A Journey Through Ahmedabad",
+    "content": "Explore the local cuisine, attractions, and more in Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Life in Pune",
+    "content": "Uncover why digital nomads and tourists flock to Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "The Hidden Gems of Surat",
+    "content": "A detailed travel and living guide to Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "The Booming Economy in Jaipur",
+    "content": "Everything you need to know about the hidden beauty of Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "An Adventure in Lucknow",
+    "content": "Find out how this city is becoming a global tech hub Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "What Makes People Love Kanpur",
+    "content": "Experience the vibrant culture and unique offerings of Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "The Growing Appeal of Nagpur",
+    "content": "A comprehensive look at the modern developments in Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Exploring the Streets of Indore",
+    "content": "An in-depth guide to the culture and lifestyle of Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Tech Startups in Thane",
+    "content": "Learn about the latest trends and innovations happening in Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "The Best Street Food in Bhopal",
+    "content": "Discover the must-visit places and experiences in Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "A Journey Through Visakhapatnam",
+    "content": "Explore the local cuisine, attractions, and more in Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Life in Patna",
+    "content": "Uncover why digital nomads and tourists flock to Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "The Hidden Gems of Vadodara",
+    "content": "A detailed travel and living guide to Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "The Booming Economy in Ghaziabad",
+    "content": "Everything you need to know about the hidden beauty of Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "An Adventure in Coimbatore",
+    "content": "Find out how this city is becoming a global tech hub Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "What Makes People Love Kochi",
+    "content": "Experience the vibrant culture and unique offerings of Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "The Growing Appeal of Mysore",
+    "content": "A comprehensive look at the modern developments in Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Exploring the Streets of Vijayawada",
+    "content": "An in-depth guide to the culture and lifestyle of Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Tech Startups in Madurai",
+    "content": "Learn about the latest trends and innovations happening in Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "The Best Street Food in Nashik",
+    "content": "Discover the must-visit places and experiences in Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "A Journey Through Rajkot",
+    "content": "Explore the local cuisine, attractions, and more in Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Life in Jabalpur",
+    "content": "Uncover why digital nomads and tourists flock to Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "The Hidden Gems of Udaipur",
+    "content": "A detailed travel and living guide to Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "The Booming Economy in Agra",
+    "content": "Everything you need to know about the hidden beauty of Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "An Adventure in Varanasi",
+    "content": "Find out how this city is becoming a global tech hub Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "What Makes People Love Guwahati",
+    "content": "Experience the vibrant culture and unique offerings of Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "The Growing Appeal of Dehradun",
+    "content": "A comprehensive look at the modern developments in Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Exploring the Streets of Jamshedpur",
+    "content": "An in-depth guide to the culture and lifestyle of Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Tech Startups in Ranchi",
+    "content": "Learn about the latest trends and innovations happening in Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "The Best Street Food in Chandigarh",
+    "content": "Discover the must-visit places and experiences in Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "A Journey Through Shimla",
+    "content": "Explore the local cuisine, attractions, and more in Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Life in Goa",
+    "content": "Uncover why digital nomads and tourists flock to Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "The Hidden Gems of Puducherry",
+    "content": "A detailed travel and living guide to Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "The Booming Economy in Trivandrum",
+    "content": "Everything you need to know about the hidden beauty of Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "An Adventure in Amritsar",
+    "content": "Find out how this city is becoming a global tech hub Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "What Makes People Love Ludhiana",
+    "content": "Experience the vibrant culture and unique offerings of Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "The Growing Appeal of Meerut",
+    "content": "A comprehensive look at the modern developments in Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Exploring the Streets of Aurangabad",
+    "content": "An in-depth guide to the culture and lifestyle of Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Tech Startups in Allahabad",
+    "content": "Learn about the latest trends and innovations happening in Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "The Best Street Food in Mangalore",
+    "content": "Discover the must-visit places and experiences in Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "A Journey Through Tiruchirappalli",
+    "content": "Explore the local cuisine, attractions, and more in Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Life in Mumbai",
+    "content": "Uncover why digital nomads and tourists flock to Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "The Hidden Gems of Delhi",
+    "content": "A detailed travel and living guide to Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "The Booming Economy in Bangalore",
+    "content": "Everything you need to know about the hidden beauty of Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "An Adventure in Hyderabad",
+    "content": "Find out how this city is becoming a global tech hub Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "What Makes People Love Chennai",
+    "content": "Experience the vibrant culture and unique offerings of Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "The Growing Appeal of Kolkata",
+    "content": "A comprehensive look at the modern developments in Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Exploring the Streets of Ahmedabad",
+    "content": "An in-depth guide to the culture and lifestyle of Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Tech Startups in Pune",
+    "content": "Learn about the latest trends and innovations happening in Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "The Best Street Food in Surat",
+    "content": "Discover the must-visit places and experiences in Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "A Journey Through Jaipur",
+    "content": "Explore the local cuisine, attractions, and more in Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Life in Lucknow",
+    "content": "Uncover why digital nomads and tourists flock to Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "The Hidden Gems of Kanpur",
+    "content": "A detailed travel and living guide to Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "The Booming Economy in Nagpur",
+    "content": "Everything you need to know about the hidden beauty of Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "An Adventure in Indore",
+    "content": "Find out how this city is becoming a global tech hub Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "What Makes People Love Thane",
+    "content": "Experience the vibrant culture and unique offerings of Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "The Growing Appeal of Bhopal",
+    "content": "A comprehensive look at the modern developments in Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Exploring the Streets of Visakhapatnam",
+    "content": "An in-depth guide to the culture and lifestyle of Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Tech Startups in Patna",
+    "content": "Learn about the latest trends and innovations happening in Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "The Best Street Food in Vadodara",
+    "content": "Discover the must-visit places and experiences in Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "A Journey Through Ghaziabad",
+    "content": "Explore the local cuisine, attractions, and more in Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Life in Coimbatore",
+    "content": "Uncover why digital nomads and tourists flock to Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "The Hidden Gems of Kochi",
+    "content": "A detailed travel and living guide to Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "The Booming Economy in Mysore",
+    "content": "Everything you need to know about the hidden beauty of Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "An Adventure in Vijayawada",
+    "content": "Find out how this city is becoming a global tech hub Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "What Makes People Love Madurai",
+    "content": "Experience the vibrant culture and unique offerings of Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "The Growing Appeal of Nashik",
+    "content": "A comprehensive look at the modern developments in Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Exploring the Streets of Rajkot",
+    "content": "An in-depth guide to the culture and lifestyle of Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Tech Startups in Jabalpur",
+    "content": "Learn about the latest trends and innovations happening in Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "The Best Street Food in Udaipur",
+    "content": "Discover the must-visit places and experiences in Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "A Journey Through Agra",
+    "content": "Explore the local cuisine, attractions, and more in Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Life in Varanasi",
+    "content": "Uncover why digital nomads and tourists flock to Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "The Hidden Gems of Guwahati",
+    "content": "A detailed travel and living guide to Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "The Booming Economy in Dehradun",
+    "content": "Everything you need to know about the hidden beauty of Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "An Adventure in Jamshedpur",
+    "content": "Find out how this city is becoming a global tech hub Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "What Makes People Love Ranchi",
+    "content": "Experience the vibrant culture and unique offerings of Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "The Growing Appeal of Chandigarh",
+    "content": "A comprehensive look at the modern developments in Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Exploring the Streets of Shimla",
+    "content": "An in-depth guide to the culture and lifestyle of Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Tech Startups in Goa",
+    "content": "Learn about the latest trends and innovations happening in Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "The Best Street Food in Puducherry",
+    "content": "Discover the must-visit places and experiences in Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "A Journey Through Trivandrum",
+    "content": "Explore the local cuisine, attractions, and more in Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Life in Amritsar",
+    "content": "Uncover why digital nomads and tourists flock to Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "The Hidden Gems of Ludhiana",
+    "content": "A detailed travel and living guide to Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "The Booming Economy in Meerut",
+    "content": "Everything you need to know about the hidden beauty of Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "An Adventure in Aurangabad",
+    "content": "Find out how this city is becoming a global tech hub Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "What Makes People Love Allahabad",
+    "content": "Experience the vibrant culture and unique offerings of Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "The Growing Appeal of Mangalore",
+    "content": "A comprehensive look at the modern developments in Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Exploring the Streets of Tiruchirappalli",
+    "content": "An in-depth guide to the culture and lifestyle of Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Tech Startups in Mumbai",
+    "content": "Learn about the latest trends and innovations happening in Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "The Best Street Food in Delhi",
+    "content": "Discover the must-visit places and experiences in Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "A Journey Through Bangalore",
+    "content": "Explore the local cuisine, attractions, and more in Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Life in Hyderabad",
+    "content": "Uncover why digital nomads and tourists flock to Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "The Hidden Gems of Chennai",
+    "content": "A detailed travel and living guide to Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "The Booming Economy in Kolkata",
+    "content": "Everything you need to know about the hidden beauty of Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "An Adventure in Ahmedabad",
+    "content": "Find out how this city is becoming a global tech hub Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "What Makes People Love Pune",
+    "content": "Experience the vibrant culture and unique offerings of Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "The Growing Appeal of Surat",
+    "content": "A comprehensive look at the modern developments in Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Exploring the Streets of Jaipur",
+    "content": "An in-depth guide to the culture and lifestyle of Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Tech Startups in Lucknow",
+    "content": "Learn about the latest trends and innovations happening in Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "The Best Street Food in Kanpur",
+    "content": "Discover the must-visit places and experiences in Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "A Journey Through Nagpur",
+    "content": "Explore the local cuisine, attractions, and more in Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Life in Indore",
+    "content": "Uncover why digital nomads and tourists flock to Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "The Hidden Gems of Thane",
+    "content": "A detailed travel and living guide to Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "The Booming Economy in Bhopal",
+    "content": "Everything you need to know about the hidden beauty of Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "An Adventure in Visakhapatnam",
+    "content": "Find out how this city is becoming a global tech hub Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "What Makes People Love Patna",
+    "content": "Experience the vibrant culture and unique offerings of Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "The Growing Appeal of Vadodara",
+    "content": "A comprehensive look at the modern developments in Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Exploring the Streets of Ghaziabad",
+    "content": "An in-depth guide to the culture and lifestyle of Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Tech Startups in Coimbatore",
+    "content": "Learn about the latest trends and innovations happening in Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "The Best Street Food in Kochi",
+    "content": "Discover the must-visit places and experiences in Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "A Journey Through Mysore",
+    "content": "Explore the local cuisine, attractions, and more in Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Life in Vijayawada",
+    "content": "Uncover why digital nomads and tourists flock to Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "The Hidden Gems of Madurai",
+    "content": "A detailed travel and living guide to Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "The Booming Economy in Nashik",
+    "content": "Everything you need to know about the hidden beauty of Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "An Adventure in Rajkot",
+    "content": "Find out how this city is becoming a global tech hub Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "What Makes People Love Jabalpur",
+    "content": "Experience the vibrant culture and unique offerings of Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "The Growing Appeal of Udaipur",
+    "content": "A comprehensive look at the modern developments in Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Exploring the Streets of Agra",
+    "content": "An in-depth guide to the culture and lifestyle of Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Tech Startups in Varanasi",
+    "content": "Learn about the latest trends and innovations happening in Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "The Best Street Food in Guwahati",
+    "content": "Discover the must-visit places and experiences in Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "A Journey Through Dehradun",
+    "content": "Explore the local cuisine, attractions, and more in Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Life in Jamshedpur",
+    "content": "Uncover why digital nomads and tourists flock to Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "The Hidden Gems of Ranchi",
+    "content": "A detailed travel and living guide to Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "The Booming Economy in Chandigarh",
+    "content": "Everything you need to know about the hidden beauty of Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "An Adventure in Shimla",
+    "content": "Find out how this city is becoming a global tech hub Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "What Makes People Love Goa",
+    "content": "Experience the vibrant culture and unique offerings of Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "The Growing Appeal of Puducherry",
+    "content": "A comprehensive look at the modern developments in Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Exploring the Streets of Trivandrum",
+    "content": "An in-depth guide to the culture and lifestyle of Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Tech Startups in Amritsar",
+    "content": "Learn about the latest trends and innovations happening in Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "The Best Street Food in Ludhiana",
+    "content": "Discover the must-visit places and experiences in Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "A Journey Through Meerut",
+    "content": "Explore the local cuisine, attractions, and more in Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Life in Aurangabad",
+    "content": "Uncover why digital nomads and tourists flock to Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "The Hidden Gems of Allahabad",
+    "content": "A detailed travel and living guide to Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "The Booming Economy in Mangalore",
+    "content": "Everything you need to know about the hidden beauty of Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "An Adventure in Tiruchirappalli",
+    "content": "Find out how this city is becoming a global tech hub Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "What Makes People Love Mumbai",
+    "content": "Experience the vibrant culture and unique offerings of Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "The Growing Appeal of Delhi",
+    "content": "A comprehensive look at the modern developments in Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Exploring the Streets of Bangalore",
+    "content": "An in-depth guide to the culture and lifestyle of Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Tech Startups in Hyderabad",
+    "content": "Learn about the latest trends and innovations happening in Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "title": "The Best Street Food in Chennai",
+    "content": "Discover the must-visit places and experiences in Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "A Journey Through Kolkata",
+    "content": "Explore the local cuisine, attractions, and more in Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Life in Ahmedabad",
+    "content": "Uncover why digital nomads and tourists flock to Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "The Hidden Gems of Pune",
+    "content": "A detailed travel and living guide to Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "The Booming Economy in Surat",
+    "content": "Everything you need to know about the hidden beauty of Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "An Adventure in Jaipur",
+    "content": "Find out how this city is becoming a global tech hub Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "What Makes People Love Lucknow",
+    "content": "Experience the vibrant culture and unique offerings of Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "The Growing Appeal of Kanpur",
+    "content": "A comprehensive look at the modern developments in Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Exploring the Streets of Nagpur",
+    "content": "An in-depth guide to the culture and lifestyle of Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Tech Startups in Indore",
+    "content": "Learn about the latest trends and innovations happening in Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "The Best Street Food in Thane",
+    "content": "Discover the must-visit places and experiences in Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "title": "A Journey Through Bhopal",
+    "content": "Explore the local cuisine, attractions, and more in Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Life in Visakhapatnam",
+    "content": "Uncover why digital nomads and tourists flock to Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "The Hidden Gems of Patna",
+    "content": "A detailed travel and living guide to Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "The Booming Economy in Vadodara",
+    "content": "Everything you need to know about the hidden beauty of Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title": "An Adventure in Ghaziabad",
+    "content": "Find out how this city is becoming a global tech hub Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "What Makes People Love Coimbatore",
+    "content": "Experience the vibrant culture and unique offerings of Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "The Growing Appeal of Kochi",
+    "content": "A comprehensive look at the modern developments in Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Exploring the Streets of Mysore",
+    "content": "An in-depth guide to the culture and lifestyle of Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Tech Startups in Vijayawada",
+    "content": "Learn about the latest trends and innovations happening in Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "title": "The Best Street Food in Madurai",
+    "content": "Discover the must-visit places and experiences in Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title": "A Journey Through Nashik",
+    "content": "Explore the local cuisine, attractions, and more in Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Life in Rajkot",
+    "content": "Uncover why digital nomads and tourists flock to Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title": "The Hidden Gems of Jabalpur",
+    "content": "A detailed travel and living guide to Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "The Booming Economy in Udaipur",
+    "content": "Everything you need to know about the hidden beauty of Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title": "An Adventure in Agra",
+    "content": "Find out how this city is becoming a global tech hub Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title": "What Makes People Love Varanasi",
+    "content": "Experience the vibrant culture and unique offerings of Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "title": "The Growing Appeal of Guwahati",
+    "content": "A comprehensive look at the modern developments in Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Exploring the Streets of Dehradun",
+    "content": "An in-depth guide to the culture and lifestyle of Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Tech Startups in Jamshedpur",
+    "content": "Learn about the latest trends and innovations happening in Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "title": "The Best Street Food in Ranchi",
+    "content": "Discover the must-visit places and experiences in Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title": "A Journey Through Chandigarh",
+    "content": "Explore the local cuisine, attractions, and more in Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Life in Shimla",
+    "content": "Uncover why digital nomads and tourists flock to Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title": "The Hidden Gems of Goa",
+    "content": "A detailed travel and living guide to Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "title": "The Booming Economy in Puducherry",
+    "content": "Everything you need to know about the hidden beauty of Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "title": "An Adventure in Trivandrum",
+    "content": "Find out how this city is becoming a global tech hub Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title": "What Makes People Love Amritsar",
+    "content": "Experience the vibrant culture and unique offerings of Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title": "The Growing Appeal of Ludhiana",
+    "content": "A comprehensive look at the modern developments in Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Exploring the Streets of Meerut",
+    "content": "An in-depth guide to the culture and lifestyle of Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Tech Startups in Aurangabad",
+    "content": "Learn about the latest trends and innovations happening in Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title": "The Best Street Food in Allahabad",
+    "content": "Discover the must-visit places and experiences in Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "title": "A Journey Through Mangalore",
+    "content": "Explore the local cuisine, attractions, and more in Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Life in Tiruchirappalli",
+    "content": "Uncover why digital nomads and tourists flock to Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "title": "The Hidden Gems of Mumbai",
+    "content": "A detailed travel and living guide to Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "title": "The Booming Economy in Delhi",
+    "content": "Everything you need to know about the hidden beauty of Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "title": "An Adventure in Bangalore",
+    "content": "Find out how this city is becoming a global tech hub Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "title": "What Makes People Love Hyderabad",
+    "content": "Experience the vibrant culture and unique offerings of Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "title": "The Growing Appeal of Chennai",
+    "content": "A comprehensive look at the modern developments in Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Exploring the Streets of Kolkata",
+    "content": "An in-depth guide to the culture and lifestyle of Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "title": "Tech Startups in Ahmedabad",
+    "content": "Learn about the latest trends and innovations happening in Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "title": "The Best Street Food in Pune",
+    "content": "Discover the must-visit places and experiences in Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "title": "A Journey Through Surat",
+    "content": "Explore the local cuisine, attractions, and more in Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "title": "Life in Jaipur",
+    "content": "Uncover why digital nomads and tourists flock to Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "title": "The Hidden Gems of Lucknow",
+    "content": "A detailed travel and living guide to Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "title": "The Booming Economy in Kanpur",
+    "content": "Everything you need to know about the hidden beauty of Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "title": "An Adventure in Nagpur",
+    "content": "Find out how this city is becoming a global tech hub Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "title": "What Makes People Love Indore",
+    "content": "Experience the vibrant culture and unique offerings of Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "title": "The Growing Appeal of Thane",
+    "content": "A comprehensive look at the modern developments in Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "title": "Exploring the Streets of Bhopal",
+    "content": "An in-depth guide to the culture and lifestyle of Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "title": "Tech Startups in Visakhapatnam",
+    "content": "Learn about the latest trends and innovations happening in Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "title": "The Best Street Food in Patna",
+    "content": "Discover the must-visit places and experiences in Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "title": "A Journey Through Vadodara",
+    "content": "Explore the local cuisine, attractions, and more in Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "title": "Life in Ghaziabad",
+    "content": "Uncover why digital nomads and tourists flock to Ghaziabad, India.",
+    "city": "Ghaziabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "title": "The Hidden Gems of Coimbatore",
+    "content": "A detailed travel and living guide to Coimbatore, India.",
+    "city": "Coimbatore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "title": "The Booming Economy in Kochi",
+    "content": "Everything you need to know about the hidden beauty of Kochi, India.",
+    "city": "Kochi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "title": "An Adventure in Mysore",
+    "content": "Find out how this city is becoming a global tech hub Mysore, India.",
+    "city": "Mysore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "title": "What Makes People Love Vijayawada",
+    "content": "Experience the vibrant culture and unique offerings of Vijayawada, India.",
+    "city": "Vijayawada",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "title": "The Growing Appeal of Madurai",
+    "content": "A comprehensive look at the modern developments in Madurai, India.",
+    "city": "Madurai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "title": "Exploring the Streets of Nashik",
+    "content": "An in-depth guide to the culture and lifestyle of Nashik, India.",
+    "city": "Nashik",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "title": "Tech Startups in Rajkot",
+    "content": "Learn about the latest trends and innovations happening in Rajkot, India.",
+    "city": "Rajkot",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "title": "The Best Street Food in Jabalpur",
+    "content": "Discover the must-visit places and experiences in Jabalpur, India.",
+    "city": "Jabalpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "title": "A Journey Through Udaipur",
+    "content": "Explore the local cuisine, attractions, and more in Udaipur, India.",
+    "city": "Udaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "title": "Life in Agra",
+    "content": "Uncover why digital nomads and tourists flock to Agra, India.",
+    "city": "Agra",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "title": "The Hidden Gems of Varanasi",
+    "content": "A detailed travel and living guide to Varanasi, India.",
+    "city": "Varanasi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "title": "The Booming Economy in Guwahati",
+    "content": "Everything you need to know about the hidden beauty of Guwahati, India.",
+    "city": "Guwahati",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "title": "An Adventure in Dehradun",
+    "content": "Find out how this city is becoming a global tech hub Dehradun, India.",
+    "city": "Dehradun",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "title": "What Makes People Love Jamshedpur",
+    "content": "Experience the vibrant culture and unique offerings of Jamshedpur, India.",
+    "city": "Jamshedpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "title": "The Growing Appeal of Ranchi",
+    "content": "A comprehensive look at the modern developments in Ranchi, India.",
+    "city": "Ranchi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "title": "Exploring the Streets of Chandigarh",
+    "content": "An in-depth guide to the culture and lifestyle of Chandigarh, India.",
+    "city": "Chandigarh",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Tech Startups in Shimla",
+    "content": "Learn about the latest trends and innovations happening in Shimla, India.",
+    "city": "Shimla",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "title": "The Best Street Food in Goa",
+    "content": "Discover the must-visit places and experiences in Goa, India.",
+    "city": "Goa",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "title": "A Journey Through Puducherry",
+    "content": "Explore the local cuisine, attractions, and more in Puducherry, India.",
+    "city": "Puducherry",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "title": "Life in Trivandrum",
+    "content": "Uncover why digital nomads and tourists flock to Trivandrum, India.",
+    "city": "Trivandrum",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "title": "The Hidden Gems of Amritsar",
+    "content": "A detailed travel and living guide to Amritsar, India.",
+    "city": "Amritsar",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "title": "The Booming Economy in Ludhiana",
+    "content": "Everything you need to know about the hidden beauty of Ludhiana, India.",
+    "city": "Ludhiana",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "title": "An Adventure in Meerut",
+    "content": "Find out how this city is becoming a global tech hub Meerut, India.",
+    "city": "Meerut",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "title": "What Makes People Love Aurangabad",
+    "content": "Experience the vibrant culture and unique offerings of Aurangabad, India.",
+    "city": "Aurangabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "title": "The Growing Appeal of Allahabad",
+    "content": "A comprehensive look at the modern developments in Allahabad, India.",
+    "city": "Allahabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "title": "Exploring the Streets of Mangalore",
+    "content": "An in-depth guide to the culture and lifestyle of Mangalore, India.",
+    "city": "Mangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "title": "Tech Startups in Tiruchirappalli",
+    "content": "Learn about the latest trends and innovations happening in Tiruchirappalli, India.",
+    "city": "Tiruchirappalli",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "title": "The Best Street Food in Mumbai",
+    "content": "Discover the must-visit places and experiences in Mumbai, India.",
+    "city": "Mumbai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "title": "A Journey Through Delhi",
+    "content": "Explore the local cuisine, attractions, and more in Delhi, India.",
+    "city": "Delhi",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "title": "Life in Bangalore",
+    "content": "Uncover why digital nomads and tourists flock to Bangalore, India.",
+    "city": "Bangalore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "title": "The Hidden Gems of Hyderabad",
+    "content": "A detailed travel and living guide to Hyderabad, India.",
+    "city": "Hyderabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "title": "The Booming Economy in Chennai",
+    "content": "Everything you need to know about the hidden beauty of Chennai, India.",
+    "city": "Chennai",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "title": "An Adventure in Kolkata",
+    "content": "Find out how this city is becoming a global tech hub Kolkata, India.",
+    "city": "Kolkata",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "title": "What Makes People Love Ahmedabad",
+    "content": "Experience the vibrant culture and unique offerings of Ahmedabad, India.",
+    "city": "Ahmedabad",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "title": "The Growing Appeal of Pune",
+    "content": "A comprehensive look at the modern developments in Pune, India.",
+    "city": "Pune",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "title": "Exploring the Streets of Surat",
+    "content": "An in-depth guide to the culture and lifestyle of Surat, India.",
+    "city": "Surat",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "title": "Tech Startups in Jaipur",
+    "content": "Learn about the latest trends and innovations happening in Jaipur, India.",
+    "city": "Jaipur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "title": "The Best Street Food in Lucknow",
+    "content": "Discover the must-visit places and experiences in Lucknow, India.",
+    "city": "Lucknow",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "title": "A Journey Through Kanpur",
+    "content": "Explore the local cuisine, attractions, and more in Kanpur, India.",
+    "city": "Kanpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "title": "Life in Nagpur",
+    "content": "Uncover why digital nomads and tourists flock to Nagpur, India.",
+    "city": "Nagpur",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "title": "The Hidden Gems of Indore",
+    "content": "A detailed travel and living guide to Indore, India.",
+    "city": "Indore",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "title": "The Booming Economy in Thane",
+    "content": "Everything you need to know about the hidden beauty of Thane, India.",
+    "city": "Thane",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "title": "An Adventure in Bhopal",
+    "content": "Find out how this city is becoming a global tech hub Bhopal, India.",
+    "city": "Bhopal",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "title": "What Makes People Love Visakhapatnam",
+    "content": "Experience the vibrant culture and unique offerings of Visakhapatnam, India.",
+    "city": "Visakhapatnam",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "title": "The Growing Appeal of Patna",
+    "content": "A comprehensive look at the modern developments in Patna, India.",
+    "city": "Patna",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "title": "Exploring the Streets of Vadodara",
+    "content": "An in-depth guide to the culture and lifestyle of Vadodara, India.",
+    "city": "Vadodara",
+    "country": "India",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+      }
+    ]
+  }
+]

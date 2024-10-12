@@ -1,26 +1,23 @@
+// routes/blogRoutes.js
 const express = require('express');
+const BlogPost = require('../models/Blog'); // Adjust path if necessary
 const router = express.Router();
-const Blog = require('../models/Blog');
 
-// Get all blog posts by geo-location
-router.get('/:geoLocation', async (req, res) => {
+// Route to get blogs by city
+router.get('/city/:city', async (req, res) => {
   try {
-    const posts = await Blog.find({ geoLocation: req.params.geoLocation });
-    res.json(posts);
-  } catch (error) {
-    res.status(500).json({ message: "Error retrieving posts" });
-  }
-});
+    const city = req.params.city;
+    console.log(city);
+    const blogs = await BlogPost.find({ city: city });
 
-// Add a new blog post
-router.post('/', async (req, res) => {
-  const { title, content, geoLocation } = req.body;
-  const newPost = new Blog({ title, content, geoLocation });
-  try {
-    const savedPost = await newPost.save();
-    res.json(savedPost);
-  } catch (error) {
-    res.status(500).json({ message: "Error saving post" });
+    if (blogs.length === 0) {
+      return res.status(404).json({ message: 'No blog posts found for this city.' });
+    }
+
+    res.json(blogs);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
   }
 });
 
