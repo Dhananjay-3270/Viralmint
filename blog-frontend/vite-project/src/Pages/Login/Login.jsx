@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
+import { UserContext } from "../../Context/Usercontext";
 import "./Login.css";
 
 const Login = () => {
+  const { login } = useContext(UserContext);
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
@@ -27,9 +29,7 @@ const Login = () => {
       );
       const token = response.data.token;
       const { email, username } = response.data.user;
-      localStorage.setItem("token", token);
-      localStorage.setItem("useremail",email);
-      localStorage.setItem("username",username);
+      login(token, email, username);
       setMessage("Login successful!");
       // Redirect to creator section after successful login
       navigate("/creatorsection");

@@ -108,5 +108,5 @@ const indianCities = [
 
   export const blogPosts = generateBlogPosts(10);
   
-  console.log(blogPosts); 
+
   

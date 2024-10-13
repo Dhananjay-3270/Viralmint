@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './CreatorSection.css'; // Import your CSS file
+import { Link } from "react-router-dom";
 
 const CreatorSection = () => {
   const token = localStorage.getItem("token");
@@ -107,24 +108,11 @@ const CreatorSection = () => {
           handleAddBlog();
         }}
       >
-        <input
-          type="text"
-          placeholder="Blog Title"
-          value={newBlog.title}
-          onChange={(e) =>
-            setNewBlog({ ...newBlog, title: e.target.value })
-          }
-          required
-        />
-        <textarea
-          placeholder="Blog Content"
-          value={newBlog.content}
-          onChange={(e) =>
-            setNewBlog({ ...newBlog, content: e.target.value })
-          }
-          required
-        />
+       
+   
+        <Link to="/creatorsection/edit">
         <button type="submit">Add Blog</button>
+        </Link>
       </form>
     </div>
   );

@@ -7,7 +7,7 @@ import { fetchLocation } from "../../Api/api";
 const Homepage = () => {
   return (
     <div>
-      <Navbar/>
+     
       <BlogList blogs={blogPosts} />
       <LocationDisplay />
     </div>
