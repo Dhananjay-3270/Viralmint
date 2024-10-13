@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import './CreatorSection.css'; // Import your CSS file
 
 const CreatorSection = () => {
+  const token = localStorage.getItem("token");
+
   const [user, setUser] = useState(null);
   const [blogs, setBlogs] = useState([]);
   const [newBlog, setNewBlog] = useState({
@@ -9,87 +12,122 @@ const CreatorSection = () => {
     content: "",
     media: [],
   });
+  const [loading, setLoading] = useState(true); // Loading state
 
-  // useEffect(() => {
-  //   // Fetch user details and blogs
-  //   const fetchUserDetails = async () => {
-  //     try {
-  //       const userResponse = await axios.get("http://localhost:5000/api/user");
-  //       setUser(userResponse.data);
-  //       setBlogs(userResponse.data.blogs);
-  //     } catch (error) {
-  //       console.error("Error fetching user data:", error);
-  //     }
-  //   };
+  useEffect(() => {
+    // Fetch user details and blogs
+    const fetchUserDetails = async () => {
+      try {
+        const userResponse = await axios.get("http://localhost:5000/api/user", {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+        console.log(userResponse.data);
+        setUser(userResponse.data);
+        setBlogs(userResponse.data.blogs);
+      } catch (error) {
+        console.error("Error fetching user data:", error);
+      } finally {
+        setLoading(false); // Set loading to false after the fetch completes
+      }
+    };
 
-  //   fetchUserDetails();
-  // }, []);
+    fetchUserDetails();
+  }, [token]);
 
-  // const handleAddBlog = async () => {
-  //   try {
-  //     const response = await axios.post("http://localhost:5000/api/blogs", newBlog);
-  //     setBlogs([...blogs, response.data]); // Add new blog to the list
-  //   } catch (error) {
-  //     console.error("Error adding blog:", error);
-  //   }
-  // };
+  const handleAddBlog = async () => {
+    try {
+      const response = await axios.post("http://localhost:5000/api/blogs", newBlog, {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include the token in the headers
+        },
+      });
+      setBlogs([...blogs, response.data]); // Add new blog to the list
+      setNewBlog({ title: "", content: "", media: [] }); // Reset new blog input
+    } catch (error) {
+      console.error("Error adding blog:", error);
+    }
+  };
 
-  // const handleDeleteBlog = async (id) => {
-  //   try {
-  //     await axios.delete(`http://localhost:5000/api/blogs/${id}`);
-  //     setBlogs(blogs.filter((blog) => blog._id !== id)); // Remove the deleted blog
-  //   } catch (error) {
-  //     console.error("Error deleting blog:", error);
-  //   }
-  // };
+  const handleDeleteBlog = async (id) => {
+    try {
+      await axios.delete(`http://localhost:5000/api/blogs/${id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include the token in the headers
+        },
+      });
+      setBlogs(blogs.filter((blog) => blog._id !== id)); // Remove the deleted blog
+    } catch (error) {
+      console.error("Error deleting blog:", error);
+    }
+  };
+
+  if (loading) return <p>Loading user data...</p>; // Show loading message
 
   return (
-    <div>
-Creators section
+    <div className="creator-section">
+      <h1>Welcome, {user?.username}</h1>
+      <h2>Your Blogs</h2>
+      <ul>
+        {blogs.length > 0 ? (
+          blogs.map((blog) => (
+            <li key={blog._id} className="blog-item">
+              <h3>{blog.title}</h3>
+              <p>{blog.content}</p>
+              {blog.media.length > 0 && (
+                <div className="media-container">
+                  {blog.media.map((media) => (
+                    <div key={media._id} className="media-item">
+                      {media.type === "image" ? (
+                        <img src={media.url} alt="Blog Media" className="media-image" />
+                      ) : media.type === "video" ? (
+                        <video controls className="media-video">
+                          <source src={media.url} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      ) : null}
+                    </div>
+                  ))}
+                </div>
+              )}
+              <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
+              {/* Add an edit button here if needed */}
+            </li>
+          ))
+        ) : (
+          <p>No blogs found.</p>
+        )}
+      </ul>
+
+      <h2>Add New Blog</h2>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleAddBlog();
+        }}
+      >
+        <input
+          type="text"
+          placeholder="Blog Title"
+          value={newBlog.title}
+          onChange={(e) =>
+            setNewBlog({ ...newBlog, title: e.target.value })
+          }
+          required
+        />
+        <textarea
+          placeholder="Blog Content"
+          value={newBlog.content}
+          onChange={(e) =>
+            setNewBlog({ ...newBlog, content: e.target.value })
+          }
+          required
+        />
+        <button type="submit">Add Blog</button>
+      </form>
     </div>
   );
 };
 
 export default CreatorSection;
-
-
-
-
-// <h1>Welcome, {user?.username}</h1>
-// <h2>Your Blogs</h2>
-// <ul>
-//   {blogs.map((blog) => (
-//     <li key={blog._id}>
-//       <h3>{blog.title}</h3>
-//       <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
-//       {/* Add an edit button here if needed */}
-//     </li>
-//   ))}
-// </ul>
-
-// <h2>Add New Blog</h2>
-// <form
-//   onSubmit={(e) => {
-//     e.preventDefault();
-//     handleAddBlog();
-//   }}
-// >
-//   <input
-//     type="text"
-//     placeholder="Blog Title"
-//     value={newBlog.title}
-//     onChange={(e) =>
-//       setNewBlog({ ...newBlog, title: e.target.value })
-//     }
-//     required
-//   />
-//   <textarea
-//     placeholder="Blog Content"
-//     value={newBlog.content}
-//     onChange={(e) =>
-//       setNewBlog({ ...newBlog, content: e.target.value })
-//     }
-//     required
-//   />
-//   <button type="submit">Add Blog</button>
-// </form>

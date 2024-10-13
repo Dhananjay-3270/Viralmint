@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate ,Link} from "react-router-dom";
-import "./Login.css"
+import { useNavigate, Link } from "react-router-dom";
+import "./Login.css";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -21,7 +21,15 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/login", formData);
+      const response = await axios.post(
+        "http://localhost:5000/api/login",
+        formData
+      );
+      const token = response.data.token;
+      const { email, username } = response.data.user;
+      localStorage.setItem("token", token);
+      localStorage.setItem("useremail",email);
+      localStorage.setItem("username",username);
       setMessage("Login successful!");
       // Redirect to creator section after successful login
       navigate("/creatorsection");
@@ -63,14 +71,11 @@ const Login = () => {
 
         <button type="submit">Login</button>
         <p className="secondary-action">
-            Dont have an account?
-           <Link to="/register">
-              <button>
-           Register now
-           </button>
-           </Link>
-            
-          </p>
+          Dont have an account?
+          <Link to="/register">
+            <button>Register now</button>
+          </Link>
+        </p>
       </form>
 
       {message && (
