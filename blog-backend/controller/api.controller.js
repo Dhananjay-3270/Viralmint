@@ -1,6 +1,6 @@
 const User = require('../models/user'); // Adjust the path based on your project structure
 const BlogPost = require('../models/Blog'); // Adjust the path based on your project structure
-
+const jwt = require('jsonwebtoken');
 // Function to create a user and assign a basic blog post
 const createUserWithBasicBlog = async (username, email, password, city, country) => {
     try {
@@ -58,16 +58,23 @@ const registeruser = async (req, res) => {
     }
 };
 
-
 const loginuser = async (req, res) => {
     const { email, password } = req.body;
     try {
         // Find user by email and password
         const user = await User.findByCredentials(email, password);
 
-        // Simulate sending back the user data after successful login
+        // Generate JWT token
+        const token = jwt.sign(
+            { id: user._id, email: user.email }, // Payload (user information to include in the token)
+            process.env.JWT_SECRET, // Your secret key stored in environment variables
+            { expiresIn: '1h' } // Token expiration time
+        );
+
+        // Simulate sending back the user data and token after successful login
         res.status(200).json({
             message: 'Login successful',
+            token, // Include the token in the response
             user: {
                 username: user.username,
                 email: user.email,
@@ -79,7 +86,25 @@ const loginuser = async (req, res) => {
         // Handle any errors that occur (e.g., invalid credentials)
         res.status(401).json({ message: error.message });
     }
+}
+const getUserData = async (req, res) => {
+    try {
+        const user = await User.findById(req.userId).populate('blogs'); // Populate blogs if needed
+        if (!user) {
+            return res.status(404).json({ message: 'User not found.' });
+        }
 
+        res.status(200).json({
+            username: user.username,
+            email: user.email,
+            location: user.location,
+            blogs: user.blogs,
+            createdAt: user.createdAt,
+            updatedAt: user.updatedAt,
+        });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
 }
 
-module.exports = { registeruser ,loginuser};
+module.exports = { registeruser, loginuser, getUserData };
