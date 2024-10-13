@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const insertData = require("./helper/inserdata");
+const blogRoutes = require('./routes/Apiroutes/blogRoutes');
+const postroutes = require('./routes/postroutes')
+const apiroutes = require("./routes/apiroutes")
 
 dotenv.config();
 
@@ -29,9 +32,9 @@ app.get("/", (req, res) => {
   res.send("Backend is running");
 });
 
-// Blog Routes
-const blogRoutes = require('./routes/blogRoutes');
-app.use('/api/posts', blogRoutes);
+app.use("/posts", postroutes)
+
+app.use("/api", apiroutes)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

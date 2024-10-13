@@ -12,10 +12,12 @@ const BlogList = () => {
       try {
         // Fetch the user's location
         const city = await fetchLocation(); // Fetch city dynamically
-        
+
         // Fetch blog posts based on the user's city
-        const response = await fetch(`http://localhost:5000/api/posts/city/${city.city}`);
-        
+        const response = await fetch(
+          `http://localhost:5000/posts/${city.city}`
+        );
+
         // Check if response is ok
         if (!response.ok) {
           throw new Error("Failed to fetch posts");

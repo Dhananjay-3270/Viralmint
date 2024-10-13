@@ -1,5 +1,5 @@
-const User = require('./models/User');
-const BlogPost = require('./models/BlogPost'); // Import BlogPost model
+const User = require('./user');
+const BlogPost = require('./Blog'); // Import BlogPost model
 
 const createUserWithBlog = async (username, email, password, city, country, blogData) => {
     try {
@@ -30,7 +30,10 @@ const blogData = {
     content: "This is the content of my first blog post.",
     city: city,
     country: country,
-    media: [{ type: "image", url: "http://example.com/image.jpg" }],
+    media: [{ type: "image", url: "http://example.com/image.jpg" }, {
+        type: "video",
+        url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+    }],
 };
 
 createUserWithBlog('john_doe', 'john@example.com', 'password123', 'Mumbai', 'India', blogData);

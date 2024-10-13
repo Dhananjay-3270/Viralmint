@@ -1,6 +1,6 @@
 // routes/blogRoutes.js
 const express = require('express');
-const BlogPost = require('../models/Blog'); // Adjust path if necessary
+const BlogPost = require('../../models/Blog'); // Adjust path if necessary
 const router = express.Router();
 
 // Route to get blogs by city
