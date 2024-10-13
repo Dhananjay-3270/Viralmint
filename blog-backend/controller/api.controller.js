@@ -107,4 +107,26 @@ const getUserData = async (req, res) => {
     }
 }
 
-module.exports = { registeruser, loginuser, getUserData };
+const addblogtouser = async (req, res) => {
+    try {
+        const newBlogPost = new BlogPost({
+          ...req.body,
+          user: req.user._id, // Associate the blog post with the logged-in user
+        });
+    
+        await newBlogPost.save(); // Save blog post
+    
+        // Optionally, you can also push the blog post ID to the user's blogs array if required
+        req.user.blogs.push(newBlogPost._id);
+        await req.user.save();
+    
+        res.status(201).send(newBlogPost);
+      } catch (error) {
+        res.status(400).send({ error: 'Error creating blog post' });
+      }
+
+
+}
+
+
+module.exports = { registeruser, loginuser, getUserData, addblogtouser };
