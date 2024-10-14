@@ -20,6 +20,7 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
         };
 
         // Create and save the new blog post
+
         const newBlogPost = new BlogPost(blogData);
         const savedBlogPost = await newBlogPost.save(); // Save the blog post
 
@@ -39,6 +40,40 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
     }
 };
 
+const addBlogToUser = async (userId, blogData) => {
+    try {
+        // Find the user by their ID
+        const user = await User.findById(userId);
+        if (!user) {
+            throw new Error('User not found');
+        }
+
+        // Create a new blog post with the provided data
+        const newBlogPost = new BlogPost({
+            title: blogData.title,
+            content: blogData.content,
+            city: blogData.city,
+            country: blogData.country,
+            media: blogData.media, // Include the media array
+        });
+
+        // Save the new blog post
+
+        const savedBlogPost = await newBlogPost.save();
+
+        // Push the new blog post ID into the user's blogs array
+        user.blogs.push(savedBlogPost._id);
+
+        // Save the updated user data
+        await user.save();
+
+        console.log('Blog added to user successfully:', savedBlogPost);
+        return savedBlogPost; // Return the saved blog post if needed
+    } catch (error) {
+        console.error('Error adding blog to user:', error.message);
+        throw error; // Rethrow the error for handling in calling code if needed
+    }
+};
 // Register User Controller
 const registeruser = async (req, res) => {
     const { username, email, password, city, country } = req.body;
@@ -106,27 +141,55 @@ const getUserData = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
+const addblog = async (req, res) => {
 
-const addblogtouser = async (req, res) => {
+    const blog = req.body;
+    const userId = req.userId; // Extract the user ID from the request
+    console.log("Blog data from client", blog)
     try {
-        const newBlogPost = new BlogPost({
-          ...req.body,
-          user: req.user._id, // Associate the blog post with the logged-in user
-        });
-    
-        await newBlogPost.save(); // Save blog post
-    
-        // Optionally, you can also push the blog post ID to the user's blogs array if required
-        req.user.blogs.push(newBlogPost._id);
-        await req.user.save();
-    
-        res.status(201).send(newBlogPost);
-      } catch (error) {
-        res.status(400).send({ error: 'Error creating blog post' });
-      }
+        // Call the function to add the blog post to the user
+        const newBlog = await addBlogToUser(userId, blog);
+        // Respond with the newly created blog post
+        res.status(201).send(newBlog);
+    } catch (error) {
+        // Send an error response if something goes wrong
+        res.status(400).send({ error: error.message || 'Error creating blog post' });
+    }
+};
 
 
+
+const deleteblog = async (req, res) => {
+    const blogId = req.params.id;
+
+    try {
+        const user = await User.findById(req.userId).populate('blogs');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found.' });
+        }
+
+        // Check if the blog exists in the user's blogs
+        const blogIndex = user.blogs.findIndex(blog => blog._id.toString() === blogId);
+        if (blogIndex === -1) {
+            return res.status(403).json({ message: 'Unauthorized to delete this blog' });
+        }
+
+        // Remove the blog from the user's blogs array
+        user.blogs.splice(blogIndex, 1);
+        await user.save(); // Save the user to persist changes
+
+        // Delete the blog post from the BlogPost collection
+        await BlogPost.findByIdAndDelete(blogId); // Use BlogPost here
+        res.status(200).json({ message: 'Blog deleted successfully' });
+    } catch (error) {
+        console.error('Error deleting blog:', error);
+        res.status(500).json({ message: 'Server error' });
+    }
 }
 
 
-module.exports = { registeruser, loginuser, getUserData, addblogtouser };
+
+
+
+
+module.exports = { registeruser, loginuser, getUserData, addblog, deleteblog };
