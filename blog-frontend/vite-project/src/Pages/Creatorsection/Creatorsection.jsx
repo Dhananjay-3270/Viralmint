@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import './CreatorSection.css'; // Import your CSS file
+import "./CreatorSection.css"; // Import your CSS file
 import { Link } from "react-router-dom";
 
 const CreatorSection = () => {
@@ -24,7 +24,7 @@ const CreatorSection = () => {
             Authorization: `Bearer ${token}`,
           },
         });
-        console.log(userResponse.data);
+        console.log("User Details",userResponse.data);
         setUser(userResponse.data);
         setBlogs(userResponse.data.blogs);
       } catch (error) {
@@ -37,23 +37,9 @@ const CreatorSection = () => {
     fetchUserDetails();
   }, [token]);
 
-  const handleAddBlog = async () => {
-    try {
-      const response = await axios.post("http://localhost:5000/api/blogs", newBlog, {
-        headers: {
-          Authorization: `Bearer ${token}`, // Include the token in the headers
-        },
-      });
-      setBlogs([...blogs, response.data]); // Add new blog to the list
-      setNewBlog({ title: "", content: "", media: [] }); // Reset new blog input
-    } catch (error) {
-      console.error("Error adding blog:", error);
-    }
-  };
-
   const handleDeleteBlog = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/blogs/${id}`, {
+      await axios.delete(`http://localhost:5000/api/delete/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`, // Include the token in the headers
         },
@@ -81,7 +67,11 @@ const CreatorSection = () => {
                   {blog.media.map((media) => (
                     <div key={media._id} className="media-item">
                       {media.type === "image" ? (
-                        <img src={media.url} alt="Blog Media" className="media-image" />
+                        <img
+                          src={media.url}
+                          alt="Blog Media"
+                          className="media-image"
+                        />
                       ) : media.type === "video" ? (
                         <video controls className="media-video">
                           <source src={media.url} type="video/mp4" />
@@ -93,6 +83,9 @@ const CreatorSection = () => {
                 </div>
               )}
               <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
+              <Link to={`/creatorsection/edit/${blog._id}`}>
+                <button>Edit</button>
+              </Link>
               {/* Add an edit button here if needed */}
             </li>
           ))
@@ -101,19 +94,11 @@ const CreatorSection = () => {
         )}
       </ul>
 
-      <h2>Add New Blog</h2>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleAddBlog();
-        }}
-      >
-       
-   
-        <Link to="/creatorsection/edit">
-        <button type="submit">Add Blog</button>
-        </Link>
-      </form>
+      <h2>Add New </h2>
+
+      <Link to="/creatorsection/add">
+        <button type="submit">Add Blog Blog</button>
+      </Link>
     </div>
   );
 };

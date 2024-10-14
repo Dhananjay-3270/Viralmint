@@ -8,7 +8,7 @@ import Register from "./Pages/Register/Register";
 import Login from "./Pages/Login/Login";
 import Creatorsection from "./Pages/Creatorsection/Creatorsection";
 import BlogEditor from "./Pages/BlogEditor/BlogEditor";
-
+import EditBlog from "./Pages/Edit/EditBlog";
 const App = () => {
   return (
     <UserProvider>
@@ -18,7 +18,8 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/creatorsection" element={<Creatorsection />} />
-        <Route path="/creatorsection/edit" element={<BlogEditor />} />
+        <Route path="/creatorsection/add" element={<BlogEditor />} />
+        <Route path="/creatorsection/edit/:id" element={<EditBlog />} />
       </Routes>
     </UserProvider>
   );

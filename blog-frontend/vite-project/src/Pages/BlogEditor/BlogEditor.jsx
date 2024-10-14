@@ -1,27 +1,47 @@
 // BlogEditor.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios"; // Import axios
 import "./BlogEditor.css"; // Import your CSS file
-
+import { fetchLocation } from "../../Api/api";
 const BlogEditor = () => {
+  const [location, setLocation] = useState(null);
+  const [error, setError] = useState("");
   const token = localStorage.getItem("token");
   const [newBlog, setNewBlog] = useState({
     title: "",
     content: "",
+    city: "",
+    country: "",
     media: [],
-    location: {
-      city: "",
-      country: "",
-    },
   });
+  useEffect(() => {
+    getLocation();
+  }, []);
+  const getLocation = async () => {
+    try {
+      const data = await fetchLocation();
+      if (data) {
+        const { city, region, country } = data;
+        setLocation({ city, region, country });
+        setNewBlog((prev) => ({
+          ...prev,
 
+          city,
+          country,
+        }));
+      }
+    } catch (error) {
+      setError("Could not retrieve location");
+      console.error("Error fetching location:", error);
+    }
+  };
   const handleImageFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
       const fileURL = URL.createObjectURL(file);
       setNewBlog((prev) => ({
         ...prev,
-        media: [...prev.media, { type: "image", src: fileURL }],
+        media: [...prev.media, { type: "image", url: fileURL }],
       }));
     }
   };
@@ -32,12 +52,13 @@ const BlogEditor = () => {
       const fileURL = URL.createObjectURL(file);
       setNewBlog((prev) => ({
         ...prev,
-        media: [...prev.media, { type: "video", src: fileURL }],
+        media: [...prev.media, { type: "video", url: fileURL }],
       }));
     }
   };
 
   const handleSubmit = async (event) => {
+    console.log("From FE", newBlog);
     event.preventDefault();
 
     try {
@@ -102,7 +123,7 @@ const BlogEditor = () => {
           onChange={(e) =>
             setNewBlog((prev) => ({
               ...prev,
-              media: [...prev.media, { type: "image", src: e.target.value }],
+              media: [...prev.media, { type: "image", url: e.target.value }],
             }))
           }
         />
@@ -124,7 +145,7 @@ const BlogEditor = () => {
           onChange={(e) =>
             setNewBlog((prev) => ({
               ...prev,
-              media: [...prev.media, { type: "video", src: e.target.value }],
+              media: [...prev.media, { type: "video", url: e.target.value }],
             }))
           }
         />
@@ -138,7 +159,7 @@ const BlogEditor = () => {
               <p>
                 Image Preview:{" "}
                 <img
-                  src={item.src}
+                  src={item.url}
                   alt="Image Preview"
                   style={{ maxWidth: "100%" }}
                 />
@@ -146,7 +167,7 @@ const BlogEditor = () => {
             ) : (
               <p>
                 Video Preview:{" "}
-                <video src={item.src} controls style={{ maxWidth: "100%" }} />
+                <video src={item.url} controls style={{ maxWidth: "100%" }} />
               </p>
             )}
           </div>

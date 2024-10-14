@@ -31,7 +31,7 @@ const Navbar = () => {
           {loggeduser ? ( // Conditional rendering based on loggeduser
             <>
               <li className="navbar-item">
-                <Link to="/account" className="navbar-links">
+                <Link to="/creatorsection" className="navbar-links">
                   Account ({loggeduser})
                 </Link>
               </li>
