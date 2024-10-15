@@ -1,6 +1,8 @@
 const User = require('../models/user'); // Adjust the path based on your project structure
 const BlogPost = require('../models/Blog'); // Adjust the path based on your project structure
 const jwt = require('jsonwebtoken');
+const dotenv = require('dotenv');
+const Stripe = require('stripe');
 // Function to create a user and assign a basic blog post
 const createUserWithBasicBlog = async (username, email, password, city, country) => {
     try {
@@ -11,7 +13,7 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
             content: "This is the content of my first blog post.",
             city: city,
             country: country,
-            media: [{ type: "image", url: "http://example.com/image.jpg" },
+            media: [{ type: "image", url: "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" },
             {
                 type: "video",
                 url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
@@ -174,7 +176,8 @@ const deleteblog = async (req, res) => {
             return res.status(403).json({ message: 'Unauthorized to delete this blog' });
         }
 
-        // Remove the blog from the user's blogs array
+        console.log(user.blogs)
+        console.log(user.blogs[0])
         user.blogs.splice(blogIndex, 1);
         await user.save(); // Save the user to persist changes
 
@@ -188,8 +191,133 @@ const deleteblog = async (req, res) => {
 }
 
 
+const editblog = async (req, res) => {
+
+    const blogId = req.params.id;
+    const blogData = req.body;
+
+  
+    try {
+        const user = await User.findById(req.userId).populate('blogs');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found.' });
+        }
+
+        // Check if the blog exists in the user's blogs
+        const blogIndex = user.blogs.findIndex(blog => blog._id.toString() === blogId);
+        if (blogIndex === -1) {
+            return res.status(403).json({ message: 'Unauthorized to update this blog' });
+        }
+
+        // Find the blog post to update
+        const blogPost = await BlogPost.findById(blogId);
+        if (!blogPost) {
+            return res.status(404).json({ message: 'Blog post not found.' });
+        }
+
+        // Update the blog post with the provided blogData
+        blogPost.title = blogData.title || blogPost.title; // Update title if provided
+        blogPost.content = blogData.content || blogPost.content; // Update content if provided
+        blogPost.city = blogData.city || blogPost.city; // Update city if provided
+        blogPost.country = blogData.country || blogPost.country; // Update country if provided
+        blogPost.media = blogData.media || blogPost.media; // Update media if provided
+
+        // Save the updated blog post
+        await blogPost.save();
+
+        // If you need to also update the user's blogs array, you could do:
+        user.blogs[blogIndex] = blogPost._id; // Optional: If you want to keep the reference updated in the user document
+        await user.save(); // Save user if you made changes to its blogs array
+
+        res.status(200).json({ message: 'Blog updated successfully', blog: blogPost });
+    } catch (error) {
+        console.error('Error updating blog:', error); // Log the error for debugging
+        res.status(500).json({ message: 'Error updating blog: ' + error.message }); // Handle errors
+    }
+
+
+
+}
+const checkout = async (req, res) => {
+
+    const blogData = req.body;
+    const userId = req.userId;  // Assuming userId is extracted from the request, similar to addblog
+    const stripe = new Stripe(process.env.Secret_key);
+
+    try {
+        const session = await stripe.checkout.sessions.create({
+            payment_method_types: ['card'],
+            line_items: [
+                {
+                    price_data: {
+                        currency: 'inr',
+                        product_data: {
+                            name: `Blog Publishing: ${blogData.title}`, // Name of the blog
+                        },
+                        unit_amount: 300000, // Set amount in cents (3000 = 30 INR)
+                    },
+                    quantity: 1,
+                },
+            ],
+            mode: 'payment',
+            success_url: 'http://localhost:5173/creatorsection/checkout/succes',
+            cancel_url: 'http://localhost:5173/creatorsection/checkout/failure',
+            metadata: {
+                userId,  // Storing user ID and blog data in Stripe session metadata
+                blogData: JSON.stringify(blogData),
+            },
+        });
+
+        res.json({ id: session.id });
+    } catch (error) {
+        console.error('Error creating Stripe session:', error);
+        res.status(500).send('Server error creating Stripe session');
+    }
+}
+
+
+const stripeWebhook = async (req, res) => {
+    console.log("Received and event");
+    console.log("event", req.body);
+    const sig = req.headers['stripe-signature'];
+    let event;
+
+    try {
+        event = Stripe.webhooks.constructEvent(
+            req.rawBody, // Stripe requires raw body for webhook verification
+            sig,
+            process.env.STRIPE_WEBHOOK_SECRET
+        );
+    } catch (err) {
+        console.error('Webhook signature verification failed.', err);
+        return res.status(400).send(`Webhook Error: ${err.message}`);
+    }
+
+    // Handle the checkout.session.completed event
+    if (event.type === 'checkout.session.completed') {
+        const session = event.data.object;
+
+        // Extract userId and blogData from metadata
+        const userId = session.metadata.userId;
+        const blogData = JSON.parse(session.metadata.blogData);
+
+        try {
+            // Call the function to add the blog post to the user
+            const newBlog = await addBlogToUser(userId, blogData);
+
+            // Optionally, log the result or take further actions
+            console.log('Blog post created successfully:', newBlog);
+        } catch (error) {
+            console.error('Error adding blog post:', error.message);
+        }
+    }
+
+  
+    res.status(200).end();
+};
 
 
 
 
-module.exports = { registeruser, loginuser, getUserData, addblog, deleteblog };
+
+module.exports = { registeruser, loginuser, getUserData, addblog, deleteblog, editblog, checkout, stripeWebhook };
