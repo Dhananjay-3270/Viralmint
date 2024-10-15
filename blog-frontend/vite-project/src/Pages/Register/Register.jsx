@@ -1,8 +1,9 @@
-import "./Register.css"; // Import the improved CSS
+ // Import the improved CSS
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { fetchLocation } from "../../Api/api";
 import  {useNavigate}  from "react-router-dom";
+import "./Register.css";
 const Register = () => {
   const history = useNavigate();
   const [location, setLocation] = useState({ city: "", country: "" });
@@ -69,6 +70,7 @@ const Register = () => {
   };
 
   return (
+    <div className="register-container">
     <div className="register-form">
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
@@ -83,7 +85,7 @@ const Register = () => {
             required
           />
         </div>
-
+  
         <div>
           <label htmlFor="email">Email:</label>
           <input
@@ -95,7 +97,7 @@ const Register = () => {
             required
           />
         </div>
-
+  
         <div>
           <label htmlFor="password">Password:</label>
           <input
@@ -108,38 +110,40 @@ const Register = () => {
             minLength="6"
           />
         </div>
-
+  
         <div>
           <label htmlFor="city">City:</label>
           <input
             type="text"
             name="city"
             id="city"
-            value={formData.city} // city is now bound to formData
-            onChange={handleChange} // Allows manual input if needed
+            value={formData.city}
+            onChange={handleChange}
           />
         </div>
-
+  
         <div>
           <label htmlFor="country">Country:</label>
           <input
             type="text"
             name="country"
             id="country"
-            value={formData.country} // country is now bound to formData
-            onChange={handleChange} // Allows manual input if needed
+            value={formData.country}
+            onChange={handleChange}
           />
         </div>
-
+  
         <button type="submit">Register</button>
       </form>
-
+  
       {message && (
         <p className={message.includes("Error") ? "error" : "success"}>
           {message}
         </p>
       )}
     </div>
+  </div>
+  
   );
 };
 

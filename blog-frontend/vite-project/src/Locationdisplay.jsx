@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchLocation } from "./Api/api";
+import './LocationDisplay.css'; // Import your CSS file
 
 const LocationDisplay = () => {
   const [location, setLocation] = useState(null);
@@ -23,16 +24,16 @@ const LocationDisplay = () => {
   }, []);
 
   return (
-    <div>
+    <div className="location-container">
       <h1>Your Location:</h1>
       {location ? (
-        <div>
+        <div className="success">
           <p>City: {location.city}</p>
           <p>Region: {location.region}</p>
           <p>Country: {location.country}</p>
         </div>
       ) : (
-        <p>{error || "Fetching location..."}</p>
+        <p className={error ? "error" : "loading"}>{error || "Fetching location..."}</p>
       )}
     </div>
   );

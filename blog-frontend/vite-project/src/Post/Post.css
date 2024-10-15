@@ -1,35 +1,41 @@
 /* Basic container styling for the post */
 .post-container {
-  border: 1px solid #ddd;
+  border: 1px solid #e0e0e0; /* Softer border color */
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Slightly increased border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Deeper shadow for better depth */
   background-color: #fff;
   max-width: 800px;
   margin: 20px auto;
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+/* Add hover effect */
+.post-container:hover {
+  transform: translateY(-2px); /* Subtle lift on hover */
 }
 
 /* Title styling */
 .post-title {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 26px; /* Increased title size */
+  font-weight: 600; /* Slightly bolder font */
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 12px; /* Increased margin for separation */
 }
 
 /* Author and location details */
 .post-author,
 .post-location {
-  font-size: 14px;
+  font-size: 15px; /* Slightly larger font for readability */
   color: #888;
   margin-bottom: 5px;
 }
 
 /* Content of the blog */
 .post-content {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px; /* Slightly increased font size */
+  line-height: 1.7; /* Improved line height for better readability */
   color: #444;
   margin-bottom: 20px;
 }
@@ -44,32 +50,32 @@
 /* Media items styling (image and video) */
 .post-media-item {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px; /* Increased minimum width for better layout */
 }
 
 /* Image styling */
 .post-image {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: 8px; /* More rounded corners for a softer look */
 }
 
 /* Video styling */
 .post-video {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 8px; /* More rounded corners */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .post-title {
-    font-size: 20px;
+    font-size: 22px; /* Adjusted title size for smaller screens */
   }
 
   .post-content {
-    font-size: 14px;
+    font-size: 15px; /* Adjusted content size for readability */
   }
 
   .post-media {
-    flex-direction: column;
+    flex-direction: column; /* Stack media items on smaller screens */
   }
 }

@@ -3,10 +3,10 @@ import Navbar from "./Navbar/Navbar";
 import BlogList from "../../Bloglist/Bloglist";
 import LocationDisplay from "../../Locationdisplay";
 import { blogPosts } from "../../Mockdata/Mock";
-import { fetchLocation } from "../../Api/api";
+import "./Homepage.css"
 const Homepage = () => {
   return (
-    <div>
+    <div className="homepage-container">
      
       <BlogList blogs={blogPosts} />
       <LocationDisplay />

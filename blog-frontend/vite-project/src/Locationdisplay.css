@@ -1,0 +1,44 @@
+.location-container {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Title styling */
+  .location-container h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph styling for city, region, and country */
+  .location-container p {
+    color: #555;
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  /* Error and loading text */
+  .location-container .error,
+  .location-container .loading {
+    color: #e74c3c;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  /* Success text styling (city, region, country) */
+  .location-container .success {
+    color: #2ecc71;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for the container */
+  .location-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+  }

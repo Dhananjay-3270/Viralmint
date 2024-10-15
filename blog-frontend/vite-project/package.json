@@ -14,6 +14,7 @@
     "@editorjs/header": "^2.8.8",
     "@editorjs/image": "^2.9.3",
     "@editorjs/list": "^1.10.0",
+    "@stripe/stripe-js": "^4.8.0",
     "@weekwood/editorjs-video": "^1.0.2",
     "axios": "^1.7.7",
     "draft-js": "^0.11.7",
@@ -23,6 +24,7 @@
     "jodit-react": "^4.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-quill": "^2.0.0",
     "react-router-dom": "^6.27.0"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Post from "../Post/Post";
 import { fetchLocation } from "../Api/api"; // Ensure this is correctly imported
-
+import "./Bloglist.css"
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -39,7 +39,7 @@ const BlogList = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div>
+    <div className="blog-list-container">
       {blogs.map((blog) => (
         <Post key={blog._id} blog={blog} />
       ))}

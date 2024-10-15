@@ -1,15 +1,21 @@
 // src/context/UserContext.js
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
+  const username = localStorage.getItem("username");
+  useEffect(() => {
+    if (username) {
+      setLoggeduser(username);
+    }
+  }, []);
   const [loggeduser, setLoggeduser] = useState("");
 
-  const login = (token,email,username) => {
+  const login = (token, email, username) => {
     localStorage.setItem("token", token);
-    localStorage.setItem("useremail",email);
-    localStorage.setItem("username",username);
+    localStorage.setItem("useremail", email);
+    localStorage.setItem("username", username);
     setLoggeduser(username);
   };
 

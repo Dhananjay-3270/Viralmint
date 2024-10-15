@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom"; // Import useParams for accessing URL parameters
 import "./EditBlog.css"; // Import your CSS file
-
+import JoditEditor from "jodit-react";
 const EditBlog = () => {
+  const editor = useRef(null);
   const { id } = useParams(); // Get blog_id from URL
   const token = localStorage.getItem("token");
   const [blog, setBlog] = useState({
@@ -53,7 +54,7 @@ const EditBlog = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.put(`http://localhost:5000/api/update/${id}`, blog, {
+      await axios.post(`http://localhost:5000/api/edit/${id}`, blog, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -65,8 +66,6 @@ const EditBlog = () => {
     }
   };
 
-  
-
   return (
     <form onSubmit={handleSubmit} className="blog-post-form">
       <h2>Edit Blog Post</h2>
@@ -77,11 +76,10 @@ const EditBlog = () => {
         onChange={(e) => setBlog({ ...blog, title: e.target.value })}
         required
       />
-      <textarea
-        placeholder="Enter Content"
+      <JoditEditor
+        ref={editor}
         value={blog.content}
-        onChange={(e) => setBlog({ ...blog, content: e.target.value })}
-        required
+        onChange={(e) => setBlog({ ...blog, content: e })}
       />
 
       {/* Image Section */}

@@ -9,6 +9,8 @@ import Login from "./Pages/Login/Login";
 import Creatorsection from "./Pages/Creatorsection/Creatorsection";
 import BlogEditor from "./Pages/BlogEditor/BlogEditor";
 import EditBlog from "./Pages/Edit/EditBlog";
+import SuccessPage from "./Pages/Paymentstatus/SuccessPage";
+import FailurePage from "./Pages/Paymentstatus/Failure";
 const App = () => {
   return (
     <UserProvider>
@@ -20,6 +22,14 @@ const App = () => {
         <Route path="/creatorsection" element={<Creatorsection />} />
         <Route path="/creatorsection/add" element={<BlogEditor />} />
         <Route path="/creatorsection/edit/:id" element={<EditBlog />} />
+        <Route
+          path="/creatorsection/checkout/succes"
+          element={<SuccessPage />}
+        />
+        <Route
+          path="/creatorsection/checkout/failure"
+          element={<FailurePage />}
+        />
       </Routes>
     </UserProvider>
   );

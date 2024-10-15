@@ -17,17 +17,13 @@ const Navbar = () => {
         <Link to="/" className="navbar-logo">
           GeoVerse
         </Link>
-        <ul className="navbar-menu">
+        <ul className="navbar-menu" >
           <li className="navbar-item">
             <Link to="/" className="navbar-links">
               Home
             </Link>
           </li>
-          <li className="navbar-item">
-            <Link to="/about" className="navbar-links">
-              About
-            </Link>
-          </li>
+         
           {loggeduser ? ( // Conditional rendering based on loggeduser
             <>
               <li className="navbar-item">

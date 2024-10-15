@@ -106,7 +106,7 @@ const indianCities = [
     return blogPosts;
   }
 
-  export const blogPosts = generateBlogPosts(10);
+  export const blogPosts = generateBlogPosts(1000);
   
 
   

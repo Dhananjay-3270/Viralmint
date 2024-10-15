@@ -61,7 +61,7 @@ const CreatorSection = () => {
           blogs.map((blog) => (
             <li key={blog._id} className="blog-item">
               <h3>{blog.title}</h3>
-              <p>{blog.content}</p>
+              <div className="blog-content"   dangerouslySetInnerHTML={{ __html: blog.content }}/>
               {blog.media.length > 0 && (
                 <div className="media-container">
                   {blog.media.map((media) => (
