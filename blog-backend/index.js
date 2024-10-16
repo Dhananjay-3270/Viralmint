@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const insertData = require('./helper/inserdata'); // Helper function to insert initial data
-const blogRoutes = require('./routes/Apiroutes/blogRoutes'); // Blog-related API routes
 const postroutes = require('./routes/postroutes'); // Routes for post functionality
 const apiroutes = require('./routes/apiroutes'); // General API routes
 
@@ -46,9 +45,9 @@ app.use("/posts", postroutes);
 app.use("/api", apiroutes);
 
 // Define the port the server will run on (default to 5000 if not set in environment)
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000; // If no PORT variable is set, default to port 10000
 
-// Start the server and listen for incoming requests
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// Start the server and listen for incoming requests on all network interfaces (0.0.0.0)
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server is running on http://0.0.0.0:${PORT}`);
 });
