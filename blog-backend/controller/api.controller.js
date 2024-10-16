@@ -338,7 +338,7 @@ const stripeWebhook = async (req, res) => {
 
     try {
         event = Stripe.webhooks.constructEvent(
-            req.rawBody, // Stripe requires raw body for webhook verification
+            req.body, // Stripe requires raw body for webhook verification
             sig,
             process.env.STRIPE_WEBHOOK_SECRET
         );
@@ -350,7 +350,7 @@ const stripeWebhook = async (req, res) => {
     // Handle the checkout.session.completed event
     if (event.type === 'checkout.session.completed') {
         const session = event.data.object;
-
+        console.log('Payment was successful:', session);
         // Extract userId and blogData from metadata
         // const userId = session.metadata.userId;
         // const blogData = JSON.parse(session.metadata.blogData);
