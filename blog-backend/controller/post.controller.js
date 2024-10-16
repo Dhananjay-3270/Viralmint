@@ -14,7 +14,7 @@ getallpost = async (req, res) => {
             return res.status(404).json({ message: 'No blog posts found for this city.' });
         }
 
-        res.json(blogs);
+        res.status(200).json(blogs);
     } catch (err) {
         console.error(err);
         res.status(500).json({ message: 'Server error' });
