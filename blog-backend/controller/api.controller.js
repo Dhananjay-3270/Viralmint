@@ -40,7 +40,59 @@ const Stripe = require('stripe');
 //     } catch (error) {
 //         throw new Error('Error creating user: ' + error.message); // Throw the error for handling in the controller
 //     }
-// };
+// }; 1.1
+
+// const createUserWithBasicBlog = async (username, email, password, city, country) => {
+//     try {
+//         // Check if the user already exists by username or email
+//         const existingUser = await User.findOne({ $or: [{ username }, { email }] });
+
+//         if (existingUser) {
+//             // If user already exists, return a response indicating the user exists
+//             return {
+//                 message: 'User already exists',
+//                 user: existingUser, // Optionally return the existing user details
+//             };
+//         }
+
+//         // Create a basic blog post data if user does not exist
+//         const blogData = {
+//             id: 1, // You might want to generate a unique ID if needed
+//             title: "My First Blog Post",
+//             content: "This is the content of my first blog post.",
+//             city: city,
+//             country: country,
+//             media: [
+//                 { type: "image", url: "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" },
+//                 {
+//                     type: "video",
+//                     url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+//                 }
+//             ],
+//         };
+
+//         // Create and save the new blog post
+//         const newBlogPost = new BlogPost(blogData);
+//         const savedBlogPost = await newBlogPost.save(); // Save the blog post
+
+//         // Create a new user with the saved blog post's ID
+//         const user = new User({
+//             username,
+//             email,
+//             password,
+//             location: { city, country }, // Add location details
+//             blogs: [savedBlogPost._id], // Associate the saved blog post with the user
+//         });
+
+//         await user.save();
+//         return {
+//             message: 'User created successfully',
+//             user, // Return the newly created user for further use
+//         };
+//     } catch (error) {
+//         throw new Error('Error creating user: ' + error.message); // Throw the error for handling in the controller
+//     }
+// }; This are some important versions of functions which are needed till depl 1.2
 
 const createUserWithBasicBlog = async (username, email, password, city, country) => {
     try {
@@ -48,11 +100,8 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
         const existingUser = await User.findOne({ $or: [{ username }, { email }] });
 
         if (existingUser) {
-            // If user already exists, return a response indicating the user exists
-            return {
-                message: 'User already exists',
-                user: existingUser, // Optionally return the existing user details
-            };
+            // If user already exists, throw an error
+            throw new Error('User already exists');
         }
 
         // Create a basic blog post data if user does not exist
@@ -93,6 +142,7 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
         throw new Error('Error creating user: ' + error.message); // Throw the error for handling in the controller
     }
 };
+
 
 
 
