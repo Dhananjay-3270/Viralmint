@@ -6,8 +6,6 @@ import { loadStripe } from "@stripe/stripe-js"; // Import Stripe SDK
 import JoditEditor from "jodit-react";
 import { config } from "../../config";
 
-
-
 const BlogEditor = () => {
   const editor = useRef(null);
   const [location, setLocation] = useState(null);
@@ -231,7 +229,7 @@ const BlogEditor = () => {
           ))}
         </div>
         {/* <button type="submit" disabled={true}>Submit This button is to submit blog without payment</button> */}
-        <button type="submit" onClick={proceedtopayment}>
+        <button type="submit" >
           Proceed to Add Blog
         </button>
       </form>
