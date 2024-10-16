@@ -2,29 +2,24 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./CreatorSection.css"; // Import your CSS file
 import { Link } from "react-router-dom";
+import { config } from "../../config";
 
 const CreatorSection = () => {
   const token = localStorage.getItem("token");
 
   const [user, setUser] = useState(null);
   const [blogs, setBlogs] = useState([]);
-  const [newBlog, setNewBlog] = useState({
-    title: "",
-    content: "",
-    media: [],
-  });
   const [loading, setLoading] = useState(true); // Loading state
 
   useEffect(() => {
-    // Fetch user details and blogs
     const fetchUserDetails = async () => {
       try {
-        const userResponse = await axios.get("http://localhost:5000/api/user", {
+        const userResponse = await axios.get(`${config.endpoint}/api/user`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
         });
-        console.log("User Details",userResponse.data);
+        
         setUser(userResponse.data);
         setBlogs(userResponse.data.blogs);
       } catch (error) {
@@ -39,9 +34,9 @@ const CreatorSection = () => {
 
   const handleDeleteBlog = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/delete/${id}`, {
+      await axios.delete(`${config.endpoint}/api/delete/${id}`, {
         headers: {
-          Authorization: `Bearer ${token}`, // Include the token in the headers
+          Authorization: `Bearer ${token}`,
         },
       });
       setBlogs(blogs.filter((blog) => blog._id !== id)); // Remove the deleted blog
@@ -61,7 +56,10 @@ const CreatorSection = () => {
           blogs.map((blog) => (
             <li key={blog._id} className="blog-item">
               <h3>{blog.title}</h3>
-              <div className="blog-content"   dangerouslySetInnerHTML={{ __html: blog.content }}/>
+              <div
+                className="blog-content"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
               {blog.media.length > 0 && (
                 <div className="media-container">
                   {blog.media.map((media) => (
@@ -82,11 +80,12 @@ const CreatorSection = () => {
                   ))}
                 </div>
               )}
-              <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
-              <Link to={`/creatorsection/edit/${blog._id}`}>
-                <button>Edit</button>
-              </Link>
-              {/* Add an edit button here if needed */}
+              <div className="button-group">
+                <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
+                <Link to={`/creatorsection/edit/${blog._id}`}>
+                  <button>Edit</button>
+                </Link>
+              </div>
             </li>
           ))
         ) : (
@@ -94,10 +93,9 @@ const CreatorSection = () => {
         )}
       </ul>
 
-      <h2>Add New </h2>
-
+      <h2>Add New Blog</h2>
       <Link to="/creatorsection/add">
-        <button type="submit">Add Blog Blog</button>
+        <button type="submit">Add Blog</button>
       </Link>
     </div>
   );

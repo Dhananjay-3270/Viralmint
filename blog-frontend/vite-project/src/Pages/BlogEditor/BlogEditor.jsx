@@ -4,11 +4,15 @@ import "./BlogEditor.css"; // Import your CSS file
 import { fetchLocation } from "../../Api/api";
 import { loadStripe } from "@stripe/stripe-js"; // Import Stripe SDK
 import JoditEditor from "jodit-react";
+import { config } from "../../config";
+
+
+
 const BlogEditor = () => {
   const editor = useRef(null);
   const [location, setLocation] = useState(null);
   const [error, setError] = useState("");
-  const [content, Setcontent] = useState("");
+
   const token = localStorage.getItem("token");
   const [newBlog, setNewBlog] = useState({
     title: "",
@@ -24,10 +28,6 @@ const BlogEditor = () => {
   useEffect(() => {
     getLocation();
   }, []);
-
-  const handlejodit = (event) => {
-    console.log(event);
-  };
 
   const getLocation = async () => {
     try {
@@ -97,7 +97,7 @@ const BlogEditor = () => {
     try {
       // Create a checkout session in the backend
       const response = await axios.post(
-        "http://localhost:5000/api/create-checkout-session",
+        `${config.endpoint}/api/create-checkout-session`,
         newBlog, // Send newBlog directly, no need for blogData wrapping
         {
           headers: {
@@ -126,7 +126,7 @@ const BlogEditor = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/addblogs",
+        `${config.endpoint}:5000/api/addblogs`,
         newBlog,
         {
           headers: {
@@ -152,7 +152,7 @@ const BlogEditor = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="blog-post-form">
+      <form onSubmit={proceedtopayment} className="blog-post-form">
         <h2>Whats going in your mind?</h2>
 
         <input
@@ -230,9 +230,11 @@ const BlogEditor = () => {
             </div>
           ))}
         </div>
-        <button type="submit">Submit</button>
+        {/* <button type="submit" disabled={true}>Submit This button is to submit blog without payment</button> */}
+        <button type="submit" onClick={proceedtopayment}>
+          Proceed to Add Blog
+        </button>
       </form>
-      <button onClick={proceedtopayment}>Proceed to Add Blog</button>
 
       {/* Location Display Box */}
       {location && (

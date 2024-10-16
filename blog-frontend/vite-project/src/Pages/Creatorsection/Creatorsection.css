@@ -142,3 +142,9 @@ a button {
 a button:hover {
   background-color: #e0a800;
 }
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adjust this value for more or less spacing */
+  margin-top: 10px;
+}

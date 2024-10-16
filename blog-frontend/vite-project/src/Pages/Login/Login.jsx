@@ -2,8 +2,9 @@ import React, { useState, useContext } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 import { UserContext } from "../../Context/Usercontext";
+import { config } from "../../config";
+import { enqueueSnackbar } from "notistack";
 import "./Login.css";
-
 const Login = () => {
   const { login } = useContext(UserContext);
   const navigate = useNavigate();
@@ -24,19 +25,23 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/login",
+        `${config.endpoint}/api/login`,
         formData
       );
       const token = response.data.token;
       const { email, username } = response.data.user;
       login(token, email, username);
       setMessage("Login successful!");
+      enqueueSnackbar(`Welcome ${username}`, { variant: "success" });
       // Redirect to creator section after successful login
       navigate("/creatorsection");
     } catch (error) {
       setMessage(
         "Error logging in. " + (error.response?.data?.message || error.message)
       );
+      enqueueSnackbar(error.response?.data?.message || error.message, {
+        variant: "error",
+      });
     }
   };
 

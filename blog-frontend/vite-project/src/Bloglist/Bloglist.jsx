@@ -1,25 +1,38 @@
 import React, { useEffect, useState } from "react";
 import Post from "../Post/Post";
 import { fetchLocation } from "../Api/api"; // Ensure this is correctly imported
-import "./Bloglist.css"
+import "./Bloglist.css";
+import { config } from "../config";
+import { enqueueSnackbar } from "notistack";
+
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+  const [Location, setlocation] = useState("");
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         // Fetch the user's location
-        const city = await fetchLocation(); // Fetch city dynamically
-
+        const location = await fetchLocation(); // Fetch city dynamically
+        const { city, region, country } = location;
+        setlocation({ city, region, country });
         // Fetch blog posts based on the user's city
         const response = await fetch(
-          `http://localhost:5000/posts/${city.city}`
+          `${config.endpoint}/posts/${location.city}`
         );
 
         // Check if response is ok
+        if (response.status == 200) {
+          enqueueSnackbar(`Presenting you blogs from ${city}`, {
+            variant: "success",
+          });
+        }
+
         if (!response.ok) {
+          enqueueSnackbar(`Failed to fetch posts from  ${city}`, {
+            variant: "error",
+          });
           throw new Error("Failed to fetch posts");
         }
 

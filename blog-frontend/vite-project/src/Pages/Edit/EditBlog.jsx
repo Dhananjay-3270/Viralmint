@@ -3,7 +3,11 @@ import axios from "axios";
 import { useParams } from "react-router-dom"; // Import useParams for accessing URL parameters
 import "./EditBlog.css"; // Import your CSS file
 import JoditEditor from "jodit-react";
+import { config } from "../../config";
+import { enqueueSnackbar } from "notistack";
+import { useNavigate } from "react-router-dom";
 const EditBlog = () => {
+  const history = useNavigate();
   const editor = useRef(null);
   const { id } = useParams(); // Get blog_id from URL
   const token = localStorage.getItem("token");
@@ -12,7 +16,6 @@ const EditBlog = () => {
     content: "",
     media: [],
   });
-  const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   const fetchBlog = async () => {
@@ -54,14 +57,23 @@ const EditBlog = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post(`http://localhost:5000/api/edit/${id}`, blog, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-      console.log("Blog updated successfully");
+      const response = await axios.post(
+        `${config.endpoint}/api/edit/${id}`,
+        blog,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      if (response.status == 200) {
+        enqueueSnackbar(response.data.message, { variant: "success" });
+        history("/creatorsection");
+      }
+
       // Optionally, redirect or show a success message
     } catch (error) {
+      enqueueSnackbar(error, { variant: "errror" });
       console.error("Error updating blog:", error);
     }
   };

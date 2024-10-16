@@ -11,8 +11,10 @@ import BlogEditor from "./Pages/BlogEditor/BlogEditor";
 import EditBlog from "./Pages/Edit/EditBlog";
 import SuccessPage from "./Pages/Paymentstatus/SuccessPage";
 import FailurePage from "./Pages/Paymentstatus/Failure";
+import { SnackbarProvider } from "notistack";
 const App = () => {
   return (
+    <SnackbarProvider>
     <UserProvider>
       <Navbar /> {/* Navbar is rendered on every route */}
       <Routes>
@@ -32,6 +34,7 @@ const App = () => {
         />
       </Routes>
     </UserProvider>
+    </SnackbarProvider>
   );
 };
 
