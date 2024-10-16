@@ -332,8 +332,7 @@ const checkout = async (req, res) => {
 
 
 const stripeWebhook = async (req, res) => {
-    console.log("Received and event");
-    console.log("event", req.body);
+   
     const sig = req.headers['stripe-signature'];
     let event;
 
@@ -349,7 +348,7 @@ const stripeWebhook = async (req, res) => {
     }
 
     // Handle the checkout.session.completed event
-    if (event.type === 'checkout.session.completed') {
+    if (event.type === 'payment_intent.succeeded') {
         const session = event.data.object;
 
         // Extract userId and blogData from metadata
