@@ -337,4 +337,4 @@ const checkout = async (req, res) => {
 
 
 
-module.exports = { registeruser, loginuser, getUserData, addblog, deleteblog, editblog, checkout, stripeWebhook };
+module.exports = { registeruser, loginuser, getUserData, addblog, deleteblog, editblog, checkout };
