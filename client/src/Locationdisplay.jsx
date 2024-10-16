@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchLocation } from "./Api/api";
-import './LocationDisplay.css'; // Import your CSS file
+import './Locationdisplay.css'; // Import your CSS file
 
 const LocationDisplay = () => {
   const [location, setLocation] = useState(null);
