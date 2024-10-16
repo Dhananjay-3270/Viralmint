@@ -4,25 +4,74 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const Stripe = require('stripe');
 // Function to create a user and assign a basic blog post
+// const createUserWithBasicBlog = async (username, email, password, city, country) => {
+//     try {
+//         // Create a basic blog post data
+//         const blogData = {
+//             id: 1, // You might want to generate a unique ID if needed
+//             title: "My First Blog Post",
+//             content: "This is the content of my first blog post.",
+//             city: city,
+//             country: country,
+//             media: [{ type: "image", url: "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" },
+//             {
+//                 type: "video",
+//                 url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+//             }
+//             ],
+//         };
+
+//         // Create and save the new blog post
+
+//         const newBlogPost = new BlogPost(blogData);
+//         const savedBlogPost = await newBlogPost.save(); // Save the blog post
+
+//         // Create a new user with the saved blog post's ID
+//         const user = new User({
+//             username,
+//             email,
+//             password,
+//             location: { city, country }, // Add location details
+//             blogs: [savedBlogPost._id], // Associate the saved blog post with the user
+//         });
+
+//         await user.save();
+//         return user; // Return the created user for further use
+//     } catch (error) {
+//         throw new Error('Error creating user: ' + error.message); // Throw the error for handling in the controller
+//     }
+// };
+
 const createUserWithBasicBlog = async (username, email, password, city, country) => {
     try {
-        // Create a basic blog post data
+        // Check if the user already exists by username or email
+        const existingUser = await User.findOne({ $or: [{ username }, { email }] });
+
+        if (existingUser) {
+            // If user already exists, return a response indicating the user exists
+            return {
+                message: 'User already exists',
+                user: existingUser, // Optionally return the existing user details
+            };
+        }
+
+        // Create a basic blog post data if user does not exist
         const blogData = {
             id: 1, // You might want to generate a unique ID if needed
             title: "My First Blog Post",
             content: "This is the content of my first blog post.",
             city: city,
             country: country,
-            media: [{ type: "image", url: "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" },
-            {
-                type: "video",
-                url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
-            }
+            media: [
+                { type: "image", url: "https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" },
+                {
+                    type: "video",
+                    url: "https://videos.pexels.com/video-files/1851768/1851768-uhd_2560_1440_30fps.mp4"
+                }
             ],
         };
 
         // Create and save the new blog post
-
         const newBlogPost = new BlogPost(blogData);
         const savedBlogPost = await newBlogPost.save(); // Save the blog post
 
@@ -36,11 +85,17 @@ const createUserWithBasicBlog = async (username, email, password, city, country)
         });
 
         await user.save();
-        return user; // Return the created user for further use
+        return {
+            message: 'User created successfully',
+            user, // Return the newly created user for further use
+        };
     } catch (error) {
         throw new Error('Error creating user: ' + error.message); // Throw the error for handling in the controller
     }
 };
+
+
+
 
 const addBlogToUser = async (userId, blogData) => {
     try {
@@ -196,7 +251,7 @@ const editblog = async (req, res) => {
     const blogId = req.params.id;
     const blogData = req.body;
 
-  
+
     try {
         const user = await User.findById(req.userId).populate('blogs');
         if (!user) {
@@ -312,7 +367,7 @@ const stripeWebhook = async (req, res) => {
         }
     }
 
-  
+
     res.status(200).end();
 };
 
