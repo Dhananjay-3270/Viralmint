@@ -332,7 +332,7 @@ const checkout = async (req, res) => {
 
 
 const stripeWebhook = async (req, res) => {
-   
+
     const sig = req.headers['stripe-signature'];
     let event;
 
@@ -367,7 +367,7 @@ const stripeWebhook = async (req, res) => {
     }
 
 
-    res.status(200).end();
+    res.status(200).send('Webhook received'); 
 };
 
 
