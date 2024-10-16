@@ -348,7 +348,7 @@ const stripeWebhook = async (req, res) => {
     }
 
     // Handle the checkout.session.completed event
-    if (event.type === 'payment_intent.succeeded') {
+    if (event.type === 'checkout.session.completed') {
         const session = event.data.object;
 
         // Extract userId and blogData from metadata
