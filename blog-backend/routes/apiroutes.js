@@ -44,7 +44,7 @@ router.post("/create-checkout-session", authenticate, checkout);
 // Stripe webhook route
 // Receives webhook events from Stripe for handling checkout session completion
 // `express.raw()` is used to process raw body as required by Stripe
-router.post('/createcheckoutsession/webhook', express.raw({ type: 'application/json' }), stripeWebhook);
+
 
 // Export the router to be used in the main app
 module.exports = router;

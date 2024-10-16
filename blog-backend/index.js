@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 const insertData = require('./helper/inserdata'); // Helper function to insert initial data
 const postroutes = require('./routes/postroutes'); // Routes for post functionality
 const apiroutes = require('./routes/apiroutes'); // General API routes
-
+const webhookroutes = require('./routes/webhookroutes')
 // Load environment variables from .env file
 dotenv.config();
 
@@ -22,16 +22,16 @@ mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,     // Use new URL parser to avoid deprecation warnings
   useUnifiedTopology: true,  // Use new server discovery and monitoring engine
 })
-.then(async () => {
-  console.log("Connected to MongoDB");
+  .then(async () => {
+    console.log("Connected to MongoDB");
 
-  // Insert initial data into the database when the server starts
-  await insertData();
+    // Insert initial data into the database when the server starts
+    await insertData();
 
-})
-.catch((err) => {
-  console.log("Error connecting to MongoDB:", err);
-});
+  })
+  .catch((err) => {
+    console.log("Error connecting to MongoDB:", err);
+  });
 
 // Base route to verify the server is running
 app.get("/", (req, res) => {
@@ -43,6 +43,8 @@ app.use("/posts", postroutes);
 
 // Define general API routes
 app.use("/api", apiroutes);
+
+app.use('/createcheckoutsession', webhookroutes);
 
 // Define the port the server will run on (default to 5000 if not set in environment)
 const PORT = process.env.PORT || 10000; // If no PORT variable is set, default to port 10000
