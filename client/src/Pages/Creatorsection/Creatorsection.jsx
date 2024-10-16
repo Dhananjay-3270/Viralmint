@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./CreatorSection.css"; // Import your CSS file
+import "./Creatorsection.css"; // Import your CSS file
 import { Link } from "react-router-dom";
 import { config } from "../../config";
 
