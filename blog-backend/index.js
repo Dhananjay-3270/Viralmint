@@ -14,8 +14,7 @@ dotenv.config();
 const app = express();
 
 // Middleware to parse JSON data and enable CORS
-app.use(express.json()); // Parses incoming JSON requests
-app.use(cors()); // Enables Cross-Origin Resource Sharing (CORS) for frontend-backend communication
+
 
 // Connect to MongoDB database
 mongoose.connect(process.env.MONGODB_URI, {
@@ -34,6 +33,10 @@ mongoose.connect(process.env.MONGODB_URI, {
   });
 
 // Base route to verify the server is running
+app.use(cors());
+app.use('/createcheckoutsession', webhookroutes);
+app.use(express.json()); // Parses incoming JSON requests
+ // Enables Cross-Origin Resource Sharing (CORS) for frontend-backend communication
 app.get("/", (req, res) => {
   res.send("Backend is running"); // Simple message for health check
 });
@@ -44,7 +47,7 @@ app.use("/posts", postroutes);
 // Define general API routes
 app.use("/api", apiroutes);
 
-app.use('/createcheckoutsession', webhookroutes);
+
 
 // Define the port the server will run on (default to 5000 if not set in environment)
 const PORT = process.env.PORT || 10000; // If no PORT variable is set, default to port 10000
