@@ -365,8 +365,8 @@ const checkout = async (req, res) => {
                 },
             ],
             mode: 'payment',
-            success_url: 'http://localhost:5173/creatorsection/checkout/succes',
-            cancel_url: 'http://localhost:5173/creatorsection/checkout/failure',
+            success_url: 'https://viralmint-five.vercel.app/creatorsection/checkout/succes',
+            cancel_url: 'https://viralmint-five.vercel.app//checkout/failure',
             metadata: {
                 userId,  // Storing user ID and blog data in Stripe session metadata
                 blogData: JSON.stringify(blogData),
