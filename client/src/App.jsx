@@ -25,11 +25,11 @@ const App = () => {
           <Route path="/creatorsection/add" element={<BlogEditor />} />
           <Route path="/creatorsection/edit/:id" element={<EditBlog />} />
           <Route
-            path="/creatorsection/checkout/succes"
+            path="/checkout/success"
             element={<SuccessPage />}
           />
           <Route
-            path="/creatorsection/checkout/failure"
+            path="/checkout/failure"
             element={<FailurePage />}
           />
         </Routes>
