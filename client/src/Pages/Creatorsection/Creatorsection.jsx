@@ -19,7 +19,7 @@ const CreatorSection = () => {
             Authorization: `Bearer ${token}`,
           },
         });
-        
+
         setUser(userResponse.data);
         setBlogs(userResponse.data.blogs);
       } catch (error) {
@@ -81,7 +81,9 @@ const CreatorSection = () => {
                 </div>
               )}
               <div className="button-group">
-                <button onClick={() => handleDeleteBlog(blog._id)}>Delete</button>
+                <button onClick={() => handleDeleteBlog(blog._id)}>
+                  Delete
+                </button>
                 <Link to={`/creatorsection/edit/${blog._id}`}>
                   <button>Edit</button>
                 </Link>
@@ -95,7 +97,7 @@ const CreatorSection = () => {
 
       <h2>Add New Blog</h2>
       <Link to="/creatorsection/add">
-        <button type="submit">Add Blog</button>
+        <button>Add Blog</button>
       </Link>
     </div>
   );
