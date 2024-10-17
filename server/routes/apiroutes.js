@@ -9,8 +9,7 @@ const {
   addblog, 
   deleteblog, 
   editblog, 
-  checkout, 
-  stripeWebhook 
+  checkout 
 } = require("../controller/api.controller"); // Import controller functions
 
 // User registration route

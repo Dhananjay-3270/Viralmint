@@ -87,10 +87,9 @@ const BlogEditor = () => {
     }
   };
 
-  const proceedtopayment = async () => {
-    const stripePromise = loadStripe(
-      "pk_test_51Q9rcM04CK4t2L72WQwmGHHL43fJdCxyyTSRI2Vbr6rgl2a4LkqNA27lH57x1hFK6gYGZeehfmkSx1PkCRoSqL8x00prf1zkKb"
-    );
+  const proceedtopayment = async (event) => {
+    event.preventDefault()
+    const stripePromise = loadStripe("pk_test_51Q9rcM04CK4t2L72WQwmGHHL43fJdCxyyTSRI2Vbr6rgl2a4LkqNA27lH57x1hFK6gYGZeehfmkSx1PkCRoSqL8x00prf1zkKb");
     const stripe = await stripePromise;
     try {
       // Create a checkout session in the backend
