@@ -15,25 +15,25 @@ import { SnackbarProvider } from "notistack";
 const App = () => {
   return (
     <SnackbarProvider>
-    <UserProvider>
-      <Navbar /> {/* Navbar is rendered on every route */}
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/creatorsection" element={<Creatorsection />} />
-        <Route path="/creatorsection/add" element={<BlogEditor />} />
-        <Route path="/creatorsection/edit/:id" element={<EditBlog />} />
-        <Route
-          path="/creatorsection/checkout/succes"
-          element={<SuccessPage />}
-        />
-        <Route
-          path="/creatorsection/checkout/failure"
-          element={<FailurePage />}
-        />
-      </Routes>
-    </UserProvider>
+      <UserProvider>
+        <Navbar /> {/* Navbar is rendered on every route */}
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/creatorsection" element={<Creatorsection />} />
+          <Route path="/creatorsection/add" element={<BlogEditor />} />
+          <Route path="/creatorsection/edit/:id" element={<EditBlog />} />
+          <Route
+            path="/creatorsection/checkout/succes"
+            element={<SuccessPage />}
+          />
+          <Route
+            path="/creatorsection/checkout/failure"
+            element={<FailurePage />}
+          />
+        </Routes>
+      </UserProvider>
     </SnackbarProvider>
   );
 };
