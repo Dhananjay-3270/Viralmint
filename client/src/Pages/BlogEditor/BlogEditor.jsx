@@ -88,8 +88,10 @@ const BlogEditor = () => {
   };
 
   const proceedtopayment = async (event) => {
-    event.preventDefault()
-    const stripePromise = loadStripe("pk_test_51Q9rcM04CK4t2L72WQwmGHHL43fJdCxyyTSRI2Vbr6rgl2a4LkqNA27lH57x1hFK6gYGZeehfmkSx1PkCRoSqL8x00prf1zkKb");
+    event.preventDefault();
+    const stripePromise = loadStripe(
+      "pk_test_51Q9rcM04CK4t2L72WQwmGHHL43fJdCxyyTSRI2Vbr6rgl2a4LkqNA27lH57x1hFK6gYGZeehfmkSx1PkCRoSqL8x00prf1zkKb"
+    );
     const stripe = await stripePromise;
     try {
       // Create a checkout session in the backend
@@ -228,9 +230,7 @@ const BlogEditor = () => {
           ))}
         </div>
         {/* <button type="submit" disabled={true}>Submit This button is to submit blog without payment</button> */}
-        <button type="submit" >
-          Proceed to Add Blog
-        </button>
+        <button type="submit">Proceed to Add Blog</button>
       </form>
 
       {/* Location Display Box */}
@@ -244,6 +244,7 @@ const BlogEditor = () => {
       )}
 
       {error && <p className="error">{error}</p>}
+      <Link to="/checkout/success"> </Link>
     </>
   );
 };
