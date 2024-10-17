@@ -244,7 +244,7 @@ const BlogEditor = () => {
       )}
 
       {error && <p className="error">{error}</p>}
-      <Link to="/checkout/success"> </Link>
+   
     </>
   );
 };
