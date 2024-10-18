@@ -1,5 +1,5 @@
 
-# GeoLocation-Based Blogs App
+# Geoverse-Based Blogs App
 
 This is a GeoLocation-Based Blogs App that allows users to receive and share blogs specific to their location. After logging in, users can view, add, and edit blogs that are relevant to their geographical area. Users must create an account and pay a minimal fee to publish their blogs.
 
